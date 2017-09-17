@@ -26,7 +26,7 @@
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/456470-075384f39367e495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/456470-68101805db910f06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/456470-c360ea145203c532.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2017-08-30T05:49:01.000Z">
+<meta property="og:updated_time" content="2017-09-17T14:20:15.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="shadowsocks配合SwitchyOmega科学上网">
 <meta name="twitter:description" content="1.shadowsocks客户端的基本使用主要步骤:1.   下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。    shadowsocks各平台客户端下载地址2.   输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。    免费ss账号网站：1.http://freessr.cf/2.https://kingss.win/    (提供">
@@ -104,7 +104,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h3 id="1-shadowsocks客户端的基本使用"><a href="#1-shadowsocks客户端的基本使用" class="headerlink" title="1.shadowsocks客户端的基本使用"></a>1.shadowsocks客户端的基本使用</h3><h4 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤:"></a>主要步骤:</h4><p><strong>1</strong>.   <strong>下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。</strong><br><strong>    <a href="https://pan.baidu.com/s/1geBdTeF" target="_blank" rel="external">shadowsocks各平台客户端下载地址</a></strong><br><strong>2</strong>.   <strong>输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。</strong><br>    免费ss账号网站：<br>1.<a href="http://freessr.cf/" target="_blank" rel="external">http://freessr.cf/</a><br>2.<a href="https://kingss.win/" target="_blank" rel="external">https://kingss.win/</a>    (提供稳定低价SS服务20￥一年)</p>
+        <h3 id="1-shadowsocks客户端的基本使用"><a href="#1-shadowsocks客户端的基本使用" class="headerlink" title="1.shadowsocks客户端的基本使用"></a>1.shadowsocks客户端的基本使用</h3><h4 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤:"></a>主要步骤:</h4><p><strong>1</strong>.   <strong>下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。</strong><br><strong>    <a href="https://yadi.sk/d/hG24IyGT3MxUrF" target="_blank" rel="external">shadowsocks各平台客户端下载地址</a></strong><br><strong>2</strong>.   <strong>输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。</strong><br>    免费ss账号网站：<br>1.<a href="http://freessr.cf/" target="_blank" rel="external">http://freessr.cf/</a><br>2.<a href="https://kingss.win/" target="_blank" rel="external">https://kingss.win/</a>    (提供稳定低价SS服务20￥一年)</p>
 <p><strong>3</strong>.  <strong> <code>启用系统代理</code>，代理模式选择<code>pac模式</code>（这个模式就是<code>自动代理模式</code>，就是根据pac规则自动识别网站是否被墙而选择是否经过代理，这个模式的好处是访问国内网站不经过代理，不会影响速度）如果<code>pac模式</code>下有些被墙的网站还是不能访问，可以启用全局代理，即访问所有网址都会通过代理。</strong><br><a id="more"></a></p>
 <h5 id="以windows系统为例，其他系统类似："><a href="#以windows系统为例，其他系统类似：" class="headerlink" title="以windows系统为例，其他系统类似："></a>以windows系统为例，其他系统类似：</h5><p>1.双击打开后，如下图，设置代理服务器的信息</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/456470-f4a502592407829c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1"></p>
@@ -137,9 +137,9 @@
 <h3 id="拓展3"><a href="#拓展3" class="headerlink" title="拓展3:"></a>拓展3:</h3><p>Shadowsocks原理<br>简单理解的话，Shadowsocks是将以前通过SSH创建的Socks5协议拆开成Server端和client端，下面这个原理图能简单介绍其翻墙原理，基本上和利用SSH tunnel大致类似：<br><img src="http://upload-images.jianshu.io/upload_images/456470-c360ea145203c532.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>PC客户端（即你的电脑）发出请求基于Socks5协议跟SS-Local端进行通讯，由于这个SS-Local一般是本机或路由器等局域网的其他机器，不经过GFW，所以解决GFW通过特征分析进行干扰的问题。<br>SS-Local和SS-Server两端通过多种可选的加密方法进行通讯，经过GFW的时候因为是常规的TCP包，没有明显特征码GFW也无法对通讯数据进行解密，因此通讯放行。<br>SS-Server将收到的加密数据进行解密，还原初始请求，再发送到用户需要访问的服务网站，获取响应原路再返回SS-04，返回途中依然使用了加密，使得流量是普通TCP包，并成功穿过GFW防火墙。<br>因此，Shadowsocks的优点在于它解决了GFW通过分析流量特征从而干扰的问题，这是它优于SSH和VPN翻墙的地方。</p>
 <p>1.其他平台的使用方法:</p>
 <ul>
-<li><p>1.所有平台客户端下载  <a href="https://pan.baidu.com/s/1geBdTeF" target="_blank" rel="external">https://pan.baidu.com/s/1geBdTeF</a></p>
+<li><p>1.所有平台客户端下载  <a href="https://yadi.sk/d/hG24IyGT3MxUrF" target="_blank" rel="external">https://yadi.sk/d/hG24IyGT3MxUrF</a></p>
 </li>
-<li><p>2.Windows、Mac使用教程 <a href="http://t.cn/R6t7HkG" target="_blank" rel="external">http://t.cn/R6t7HkG</a></p>
+<li><p>2.Windows、Mac使用教程 <a href="http://t.cn/R6tZGfZ" target="_blank" rel="external">http://t.cn/R6tZGfZ</a></p>
 </li>
 <li><p>3.IOS平台使用教程  <a href="http://t.cn/R6tzeeQ" target="_blank" rel="external">http://t.cn/R6tzeeQ</a></p>
 </li>

@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kingss.date/2017/03/23/SwitchyOmega/</loc>
+    
+    <lastmod>2017-09-17T14:20:15.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kingss.date/2017/03/23/shadow-qt5/</loc>
     
     <lastmod>2017-09-16T05:58:42.000Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://blog.kingss.date/2017/08/31/sstap/</loc>
     
     <lastmod>2017-08-31T13:52:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.kingss.date/2017/03/23/SwitchyOmega/</loc>
-    
-    <lastmod>2017-08-30T05:49:01.000Z</lastmod>
     
   </url>
   
