@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>利用proxifier与Shadowsocks进行游戏代理 | 吾皇博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。下载地址：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="利用proxifier与Shadowsocks进行游戏代理">
+<meta property="og:url" content="https://blog.kingss.date/2017/08/17/proxifier/index.html">
+<meta property="og:site_name" content="吾皇博客">
+<meta property="og:description" content="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。下载地址：">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims5zxea4j20qk0i20tn.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims6eft37j20ql0hxtan.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims6vmykuj20cb06h0te.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims73qgh0j20c606jt8x.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims7cwlcjj204h028t8j.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims7lywyjj20k20aoaaz.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims7x5zvej20d70d13z6.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims8fx1h6j20k10araao.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims8tdaw1j20qg0i5dgz.jpg">
+<meta property="og:updated_time" content="2017-08-17T08:06:44.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="利用proxifier与Shadowsocks进行游戏代理">
+<meta name="twitter:description" content="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。下载地址：">
+<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/8b953c4agy1fims5zxea4j20qk0i20tn.jpg">
+  
+    <link rel="alternative" href="/atom.xml" title="吾皇博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  
+</head>
+<body>
+<div id="container">
+  <div id="wrap">
+    <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">吾皇博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
+          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
+          <input type="submit" value="" class="search-form-submit">
+          <input name=tn type=hidden value="bds">
+          <input name=cl type=hidden value="3">
+          <input name=ct type=hidden value="2097152">
+          <input type="hidden" name="si" value="blog.kingss.date">
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="outer">
+      <section id="main"><article id="post-proxifier" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/08/17/proxifier/" class="article-date">
+  <time datetime="2017-08-17T08:00:47.000Z" itemprop="datePublished">2017-08-17</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      利用proxifier与Shadowsocks进行游戏代理
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。"><a href="#Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。" class="headerlink" title="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。"></a>Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。</h4><h5 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h5><a id="more"></a>
+<p>Proxifier官方原版下载地址：<a href="http://www.proxifier.com/download.htm" target="_blank" rel="external">http://www.proxifier.com/download.htm</a><br>用户名：zxhi<br>注册码：<br>LYZGL-F2KX3-JW5W4-A33MC-25QHH<br>ECZ83-82S6F-AM2WR-Z5ASV-JC3CG<br>2LZLR-WYDXF-NEA3A-UKVUB-75KCA</p>
+<p>汉化版下载：<a href="http://www.hanzify.org/software/13717.html" target="_blank" rel="external">http://www.hanzify.org/software/13717.html</a></p>
+<h5 id="配置教程："><a href="#配置教程：" class="headerlink" title="配置教程："></a>配置教程：</h5><p>首先需要Shdowsocks客户端已经运行，能正常使用，安装proxifier后并打开<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims5zxea4j20qk0i20tn.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims6eft37j20ql0hxtan.jpg" alt=""><br>地址默认情况下都是：127.0.0.1 端口默认情况下为：1080 请按此填写。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims6vmykuj20cb06h0te.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims73qgh0j20c606jt8x.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7cwlcjj204h028t8j.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7lywyjj20k20aoaaz.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7x5zvej20d70d13z6.jpg" alt=""><br>↓ 这里只钩你添加的软件，然后后面选让他通过127代理就可以了，如果不想代理，后面就选Direct<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims8fx1h6j20k10araao.jpg" alt=""><br>设置好以后，只要运行连接外网，自动会代理上，表示成功<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims8tdaw1j20qg0i5dgz.jpg" alt=""></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="https://blog.kingss.date/2017/08/17/proxifier/" data-id="cj70i2y4q0008d80nlvek6y31" class="article-share-link">Share</a>
+      
+
+      
+        <a href="https://blog.kingss.date/2017/08/17/proxifier/#ds-thread" class="article-comment-link">Comments</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/08/31/sstap/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          SStap进行游戏代理
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/08/17/sockscap64/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Shadowsocks搭配SocksCap进行游戏加速</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+  <section id="comments">
+    <div id="ds-thread" class="ds-thread" data-thread-key="2017/08/17/proxifier/" data-title="利用proxifier与Shadowsocks进行游戏代理" data-url="https://blog.kingss.date/2017/08/17/proxifier/"></div>
+  </section>
+</section>
+      
+      <aside id="sidebar">
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科普/">科普</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/教程/" style="font-size: 20px;">教程</a> <a href="/tags/科普/" style="font-size: 10px;">科普</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/08/31/sstap/">SStap进行游戏代理</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/17/proxifier/">利用proxifier与Shadowsocks进行游戏代理</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/17/sockscap64/">Shadowsocks搭配SocksCap进行游戏加速</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/20/wingy/">苹果手机 ios wingy 配置及教程</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/07/ss-and-vpn/">Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Links</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="https://ssrssr.net" target="_blank">吾皇SS官网</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+
+  <script src="https://s22.cnzz.com/z_stat.php?id=1264444242&web_id=1264444242" language="JavaScript"></script>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 kingss<br>
+      Powered by <a href="//hexo.io/" target="_blank">Hexo</a>
+      .
+      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+  <!-- totop start -->
+<div id="totop">
+<a title="totop"><img src="/img/scrollup.png"/></a>
+</div>
+
+<!-- totop end -->
+
+<!-- 多说公共js代码 start -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"reqianduan"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共js代码 end -->
+
+
+<!-- 百度分享 start -->
+
+<!-- 百度分享 end -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+</div>
+</body>
+</html>

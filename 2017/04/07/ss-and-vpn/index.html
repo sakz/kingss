@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别 | 吾皇博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="VPN，即虚拟专用网络虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。
+Shadowsocks，即Sock5代理采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别">
+<meta property="og:url" content="https://blog.kingss.date/2017/04/07/ss-and-vpn/index.html">
+<meta property="og:site_name" content="吾皇博客">
+<meta property="og:description" content="VPN，即虚拟专用网络虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。
+Shadowsocks，即Sock5代理采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级">
+<meta property="og:updated_time" content="2017-04-07T13:13:49.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别">
+<meta name="twitter:description" content="VPN，即虚拟专用网络虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。
+Shadowsocks，即Sock5代理采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级">
+  
+    <link rel="alternative" href="/atom.xml" title="吾皇博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.min.js"></script><![endif]-->
+  
+</head>
+<body>
+<div id="container">
+  <div id="wrap">
+    <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">吾皇博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//www.baidu.com/baidu" method="get" accept-charset="utf-8" class="search-form">
+          <input type="search" name="word" maxlength="20" class="search-form-input" placeholder="Search">
+          <input type="submit" value="" class="search-form-submit">
+          <input name=tn type=hidden value="bds">
+          <input name=cl type=hidden value="3">
+          <input name=ct type=hidden value="2097152">
+          <input type="hidden" name="si" value="blog.kingss.date">
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+    <div class="outer">
+      <section id="main"><article id="post-ss-and-vpn" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/04/07/ss-and-vpn/" class="article-date">
+  <time datetime="2017-04-07T13:10:23.000Z" itemprop="datePublished">2017-04-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h4 id="VPN，即虚拟专用网络"><a href="#VPN，即虚拟专用网络" class="headerlink" title="VPN，即虚拟专用网络"></a>VPN，即虚拟专用网络</h4><p>虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。</p>
+<h4 id="Shadowsocks，即Sock5代理"><a href="#Shadowsocks，即Sock5代理" class="headerlink" title="Shadowsocks，即Sock5代理"></a>Shadowsocks，即Sock5代理</h4><p>采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级的底层网关，是DavidKoblas在1990年开发的，此后就一直作为Internet RFC标准的开放标准。Socks 不要求应用程序遵循特定的操作系统平台，Socks 代理与应用层代理、 HTTP 层代理不同，Socks 代理只是简单地传递数据包，而不必关心是何种应用协议（比如FTP、HTTP和NNTP请求）。所以，Socks代理比其他应用层代理要快得多。</p>
+<p>VPN顾名思义，虚拟专网，你接入VPN就是接入了一个专有网络，那么你访问网络都是从这个专有网络的出口出去，好比你在家，你家路由器后面的网络设备是在同一个网络，而VPN则是让你的设备进入了另一个网络。同时你的IP地址也变成了由VPN分配的一个IP地址。通常是一个私网地址。你和VPN服务器之间的通信是否加密取决于连接VPN的具体方式/协议。</p>
+<p>Sock5代理服务器则是把你的网络数据请求通过一条连接你和代理服务器之间的通道，由服务器转发到目的地。你没有加入任何新的网络，只是http/socks数据经过代理服务器的转发送出，并从代理服务器接收回应。你与代理服务器通信过程不会被额外处理，如果你用https，那本身就是加密的。<br><a id="more"></a></p>
+<h4 id="Shadowsocks全局模式与VPN的区别"><a href="#Shadowsocks全局模式与VPN的区别" class="headerlink" title="Shadowsocks全局模式与VPN的区别"></a>Shadowsocks全局模式与VPN的区别</h4><p>VPN控制的是你电脑的整个网络，只要需要连接到互联网的流量都会经过vpn。</p>
+<p>你的IP会被更换为VPN的IP。连接VPN只需要知道IP和账号密码。</p>
+<p>Shadowsocks的全局模式，是设置你的系统代理的代理服务器，使你的所有http/socks数据经过代理服务器的转发送出。而只有支持socks5或者使用系统代理的软件才能使用Shadowsocks（一般的浏览器都是默认使用系统代理）。</p>
+<p>经过代理服务器的IP会被更换。连接Shadowsocks需要知道IP、端口、账号密码和加密方式。但是Shadowsocks因为可以自由换端口，所以定期换端口就可以有效避免IP被封！</p>
+<h4 id="Shadowsocks全局模式与PAC模式的区别"><a href="#Shadowsocks全局模式与PAC模式的区别" class="headerlink" title="Shadowsocks全局模式与PAC模式的区别"></a>Shadowsocks全局模式与PAC模式的区别</h4><p>上面已经解释了Shadowsocks的全局模式，而PAC模式就是会在你连接网站的时候读取PAC文件里的规则，来确定你访问的网站有没有被墙，如果符合，那就会使用代理服务器连接网站，而PAC列表一般都是从GFWList更新的。GFWList定期会更新被墙的网站（不过一般挺慢的）。</p>
+<p>简单地说，在全局模式下，所有网站默认走代理。而PAC模式是只有被墙的才会走代理，推荐PAC模式，如果PAC模式无法访问一些网站，就换全局模式试试，一般是因为PAC更新不及时（也可能是GFWList更新不及时）导致的。</p>
+<p>个人认为现在的Shadowsocks加密技术是很不错的，推荐使用Shadowsocks（IOS除外），想要做到类VPN的方式（控制整个网络）可以搭配Proxifier使用，</p>
+<p>上面仅代表个人的浅层观点，目前墙针对VPN的封锁越来越严重，比较有名的OpenVPN已经被第一个集火了！而PPTP也逐渐不稳定了起来，可能今天能用，明天就不能用了。L2TP和IPSe0c目前还好，加密方式还无法被效率破解。</p>
+<h4 id="购买地址：http-kingss-win"><a href="#购买地址：http-kingss-win" class="headerlink" title="购买地址：http://kingss.win"></a>购买地址：<a href="http://kingss.win" target="_blank" rel="external">http://kingss.win</a></h4>
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a data-url="https://blog.kingss.date/2017/04/07/ss-and-vpn/" data-id="cj70i2y4i0005d80n2b4xsv9v" class="article-share-link">Share</a>
+      
+
+      
+        <a href="https://blog.kingss.date/2017/04/07/ss-and-vpn/#ds-thread" class="article-comment-link">Comments</a>
+      
+
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/科普/">科普</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/07/20/wingy/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          苹果手机 ios wingy 配置及教程
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/03/27/how-to-use-telegram/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Telegram简单使用教程</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+  <section id="comments">
+    <div id="ds-thread" class="ds-thread" data-thread-key="2017/04/07/ss-and-vpn/" data-title="Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别" data-url="https://blog.kingss.date/2017/04/07/ss-and-vpn/"></div>
+  </section>
+</section>
+      
+      <aside id="sidebar">
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/教程/">教程</a><span class="tag-list-count">8</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/科普/">科普</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/教程/" style="font-size: 20px;">教程</a> <a href="/tags/科普/" style="font-size: 10px;">科普</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a><span class="archive-list-count">4</span></li></ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/08/31/sstap/">SStap进行游戏代理</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/17/proxifier/">利用proxifier与Shadowsocks进行游戏代理</a>
+          </li>
+        
+          <li>
+            <a href="/2017/08/17/sockscap64/">Shadowsocks搭配SocksCap进行游戏加速</a>
+          </li>
+        
+          <li>
+            <a href="/2017/07/20/wingy/">苹果手机 ios wingy 配置及教程</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/07/ss-and-vpn/">Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Links</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="https://ssrssr.net" target="_blank">吾皇SS官网</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+      
+    </div>
+    <footer id="footer">
+  
+
+  <script src="https://s22.cnzz.com/z_stat.php?id=1264444242&web_id=1264444242" language="JavaScript"></script>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 kingss<br>
+      Powered by <a href="//hexo.io/" target="_blank">Hexo</a>
+      .
+      Theme by <a href="https://github.com/xiangming/landscape-plus" target="_blank">Landscape-plus</a>
+    </div>
+  </div>
+</footer>
+  </div>
+  <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+  <!-- totop start -->
+<div id="totop">
+<a title="totop"><img src="/img/scrollup.png"/></a>
+</div>
+
+<!-- totop end -->
+
+<!-- 多说公共js代码 start -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"reqianduan"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0]
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共js代码 end -->
+
+
+<!-- 百度分享 start -->
+
+<!-- 百度分享 end -->
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+</div>
+</body>
+</html>

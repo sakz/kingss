@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>吾皇博客</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.kingss.date/"/>
+  <updated>2017-08-31T13:52:58.000Z</updated>
+  <id>https://blog.kingss.date/</id>
+  
+  <author>
+    <name>kingss</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SStap进行游戏代理</title>
+    <link href="https://blog.kingss.date/2017/08/31/sstap/"/>
+    <id>https://blog.kingss.date/2017/08/31/sstap/</id>
+    <published>2017-08-31T13:22:42.000Z</published>
+    <updated>2017-08-31T13:52:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！"><a href="#SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！" class="headerlink" title="SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！"></a>SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！</h4><blockquote>
+<p>官网地址：<a href="https://www.sockscap64.com/sstap" target="_blank" rel="external">https://www.sockscap64.com/sstap</a></p>
+</blockquote>
+<p>百度网盘下载：<a href="https://pan.baidu.com/s/1qYTvyv6" target="_blank" rel="external">https://pan.baidu.com/s/1qYTvyv6</a></p>
+<p>Dropbox下载链接：<a href="http://t.cn/RNVCQfV" target="_blank" rel="external">http://t.cn/RNVCQfV</a><br><a id="more"></a></p>
+<h4 id="简单来说，ss客户端本身只是提供网页代理，是在浏览器的代理，其他软件要通过ss代理，要配合SocksCap64或者Proxifier使用才能让电脑的其他软件也通过代理联网，但是这个sstap填好ss账号信息，点击全局连接，那么你电脑所有的网络连接都经过了ss代理，而不仅仅是浏览器。"><a href="#简单来说，ss客户端本身只是提供网页代理，是在浏览器的代理，其他软件要通过ss代理，要配合SocksCap64或者Proxifier使用才能让电脑的其他软件也通过代理联网，但是这个sstap填好ss账号信息，点击全局连接，那么你电脑所有的网络连接都经过了ss代理，而不仅仅是浏览器。" class="headerlink" title="简单来说，ss客户端本身只是提供网页代理，是在浏览器的代理，其他软件要通过ss代理，要配合SocksCap64或者Proxifier使用才能让电脑的其他软件也通过代理联网，但是这个sstap填好ss账号信息，点击全局连接，那么你电脑所有的网络连接都经过了ss代理，而不仅仅是浏览器。"></a>简单来说，ss客户端本身只是提供网页代理，是在浏览器的代理，其他软件要通过ss代理，要配合SocksCap64或者Proxifier使用才能让电脑的其他软件也通过代理联网，但是这个sstap填好ss账号信息，点击全局连接，那么你电脑所有的网络连接都经过了ss代理，而不仅仅是浏览器。</h4><h4 id="使用教程："><a href="#使用教程：" class="headerlink" title="使用教程："></a>使用教程：</h4><p>1.添加一个ss代理</p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fj383rvy9aj20k10fcgqy.jpg" alt=""></p>
+<p>2.填一下你的ss账号信息</p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fj3840edawj20fi0f8whc.jpg" alt=""></p>
+<p>3.模式选择全局，点连接，搞定，这时候打开你的游戏就行了</p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fj384920n0j20dd0f7dhs.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！&quot;&gt;&lt;a href=&quot;#SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！&quot; class=&quot;headerlink&quot; title=&quot;SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！&quot;&gt;&lt;/a&gt;SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！&lt;/h4&gt;&lt;blockquote&gt;
+&lt;p&gt;官网地址：&lt;a href=&quot;https://www.sockscap64.com/sstap&quot;&gt;https://www.sockscap64.com/sstap&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;百度网盘下载：&lt;a href=&quot;https://pan.baidu.com/s/1qYTvyv6&quot;&gt;https://pan.baidu.com/s/1qYTvyv6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Dropbox下载链接：&lt;a href=&quot;http://t.cn/RNVCQfV&quot;&gt;http://t.cn/RNVCQfV&lt;/a&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>利用proxifier与Shadowsocks进行游戏代理</title>
+    <link href="https://blog.kingss.date/2017/08/17/proxifier/"/>
+    <id>https://blog.kingss.date/2017/08/17/proxifier/</id>
+    <published>2017-08-17T08:00:47.000Z</published>
+    <updated>2017-08-17T08:06:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。"><a href="#Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。" class="headerlink" title="Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。"></a>Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。</h4><h5 id="下载地址："><a href="#下载地址：" class="headerlink" title="下载地址："></a>下载地址：</h5><a id="more"></a>
+<p>Proxifier官方原版下载地址：<a href="http://www.proxifier.com/download.htm" target="_blank" rel="external">http://www.proxifier.com/download.htm</a><br>用户名：zxhi<br>注册码：<br>LYZGL-F2KX3-JW5W4-A33MC-25QHH<br>ECZ83-82S6F-AM2WR-Z5ASV-JC3CG<br>2LZLR-WYDXF-NEA3A-UKVUB-75KCA</p>
+<p>汉化版下载：<a href="http://www.hanzify.org/software/13717.html" target="_blank" rel="external">http://www.hanzify.org/software/13717.html</a></p>
+<h5 id="配置教程："><a href="#配置教程：" class="headerlink" title="配置教程："></a>配置教程：</h5><p>首先需要Shdowsocks客户端已经运行，能正常使用，安装proxifier后并打开<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims5zxea4j20qk0i20tn.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims6eft37j20ql0hxtan.jpg" alt=""><br>地址默认情况下都是：127.0.0.1 端口默认情况下为：1080 请按此填写。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims6vmykuj20cb06h0te.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims73qgh0j20c606jt8x.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7cwlcjj204h028t8j.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7lywyjj20k20aoaaz.jpg" alt=""><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims7x5zvej20d70d13z6.jpg" alt=""><br>↓ 这里只钩你添加的软件，然后后面选让他通过127代理就可以了，如果不想代理，后面就选Direct<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims8fx1h6j20k10araao.jpg" alt=""><br>设置好以后，只要运行连接外网，自动会代理上，表示成功<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fims8tdaw1j20qg0i5dgz.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。&quot;&gt;&lt;a href=&quot;#Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。&quot; class=&quot;headerlink&quot; title=&quot;Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。&quot;&gt;&lt;/a&gt;Proxifier是一款功能非常强大的socks5客户端，可以让不支持通过代理服务器工作的网络程序能通过HTTPS或SOCKS代理或代理链。&lt;/h4&gt;&lt;h5 id=&quot;下载地址：&quot;&gt;&lt;a href=&quot;#下载地址：&quot; class=&quot;headerlink&quot; title=&quot;下载地址：&quot;&gt;&lt;/a&gt;下载地址：&lt;/h5&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shadowsocks搭配SocksCap进行游戏加速</title>
+    <link href="https://blog.kingss.date/2017/08/17/sockscap64/"/>
+    <id>https://blog.kingss.date/2017/08/17/sockscap64/</id>
+    <published>2017-08-17T07:39:48.000Z</published>
+    <updated>2017-08-17T07:56:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。"><a href="#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。" class="headerlink" title="SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。"></a>SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。</h4><p>客户端下载：<br>SocksCap64官网地址：<a href="http://www.sockscap64.com/" target="_blank" rel="external">http://www.sockscap64.com/</a><br>百度网盘下载：<a href="https://pan.baidu.com/s/1jIA9YRG" target="_blank" rel="external">https://pan.baidu.com/s/1jIA9YRG</a></p>
+<hr>
+<a id="more"></a>
+<p>配置教程：<br>1.安装完成后打开软件(也需要启动Shadowsocks客户端)<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimroq9wjvj20q40dv0tj.jpg" alt=""><br>2.点击代理服务器<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrpfidqpj20ml0ht3zc.jpg" alt=""><br>3.点击右下角的“+”，添加如图所示的信息，然后点击保存(地址不是远程服务器地址，直接输入127.0.0.1)<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrq26tk5j20px0dvdgw.jpg" alt=""><br>4.回到主界面，点击程序，添加一个可执行程序，命令行里选择你要代理的软件的EXE文件，然后点击确定。右击对应需要打开进行代理的软件，点击在代理隧道中运行选中的程序，然后就可以了，仅仅需要3步！</p>
+<hr>
+<p>CSGO专用<br>1、先启动STEAM<br>2、运行SocksCap64(Administrator Mode)<br>3、添加CSGO程序<br>点击程序旁的小箭头</p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrqw3tvzj20q40dvdgp.jpg" alt=""><br>4、添加CSGO.EXE文件，启动参数中输入-steam<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrrcymnbj20q40dvjso.jpg" alt=""><br>5、点击 配置 ，在DNS解析中选择本地解析域名<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrrsqcxhj20yf0ibwg2.jpg" alt=""><br>6、右击软件中的CSGO图标，点击在代理隧道中运行选中的程序即可！</p>
+<hr>
+<h4 id="软件弊端："><a href="#软件弊端：" class="headerlink" title="软件弊端："></a>软件弊端：</h4><p>此软件有个小弊端，因为部分软件的运行程序与软件的快捷方式（软件主体）并不处在同一个程序内，也许只是一个启动器的作用，此时就非常的麻烦，因为你并不知道还要添加什么进来才可以将此软件全部代理。尤其是游戏，下面教大家一种方法，来强制将所有软件都进行代理。</p>
+<h4 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h4><p>1.打开SocksCap64，然后点击上方的配置。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrt2g4iej20jo0ba0ug.jpg" alt=""></p>
+<p>2.点击网络规则。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrtg8348j20kj0eut98.jpg" alt=""><br>3.点击下方的【添加】来添加配置。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrtvxgrzj20kj0eut9a.jpg" alt=""><br>4.填写一个名称，目标主机留空，目标端口填写 1-65535 ，运作选择代理，然后一路确定，返回到SocksCap64主界面运行代理（操作与教程相同，必须相应程序来开启代理），此时你应该可以尝试进入游戏（软件）测试是否成功代理了。<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimru9vj2xj20kj0eu0tu.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot;&gt;&lt;a href=&quot;#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot; class=&quot;headerlink&quot; title=&quot;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&quot;&gt;&lt;/a&gt;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&lt;/h4&gt;&lt;p&gt;客户端下载：&lt;br&gt;SocksCap64官网地址：&lt;a href=&quot;http://www.sockscap64.com/&quot;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;br&gt;百度网盘下载：&lt;a href=&quot;https://pan.baidu.com/s/1jIA9YRG&quot;&gt;https://pan.baidu.com/s/1jIA9YRG&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>苹果手机 ios wingy 配置及教程</title>
+    <link href="https://blog.kingss.date/2017/07/20/wingy/"/>
+    <id>https://blog.kingss.date/2017/07/20/wingy/</id>
+    <published>2017-07-19T18:10:31.000Z</published>
+    <updated>2017-07-19T18:18:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>IOS 上支持 shadowsocks 的科学上网软件比较流行的就是 <a href="http://www.jianshu.com/p/064334890ae2" target="_blank" rel="external">surge</a> 和<a href="http://www.jianshu.com/p/83e57168b2f4" target="_blank" rel="external"> shadowrocket</a>，不过都是收费软件，现在出现了一款免费的科学上网软件 － <a href="https://itunes.apple.com/cn/app/wingy-mian-fei-banvpn-ke-hu/id1148026741" target="_blank" rel="external">Wingy</a> 。Wingy 同样支持<strong> shadowsocks</strong>，开发者为 <strong>@HelloWingy</strong> ，界面清爽无广告，选择自动模式就能顺畅 了。直接在<strong> APPSTORE</strong> 搜索wingy, 免费下载安装，或直接<a href="https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8" target="_blank" rel="external">点击此处</a>跳转到应用商店，或者用手机扫描下面二维码。</p>
+<a id="more"></a>
+<p><img src="http://upload-images.jianshu.io/upload_images/1485430-12a86bcb476d8614.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wingy"></p>
+<h5 id="特别提示：wingy-必须要是-IOS-9-3-以上的版本。"><a href="#特别提示：wingy-必须要是-IOS-9-3-以上的版本。" class="headerlink" title="特别提示：wingy 必须要是 IOS 9.3 以上的版本。"></a>特别提示：wingy 必须要是 IOS 9.3 以上的版本。</h5><p>wingy 的操作十分的简单，和 PC 上的操作没有任何区别。 并且默认也是自动模式，不影响国内网速！</p>
+<h5 id="自动和全局的区别"><a href="#自动和全局的区别" class="headerlink" title="自动和全局的区别"></a>自动和全局的区别</h5><p>自动模式，自动判断需不需要走科学上网线路。<br>全局模式，所有连接均走代理。<br>拿访问新浪举例，自动的从你手机到新浪服务器，全局的从你手机到国外再到新浪服务器。<br>一般是推荐使用<strong>自动模式</strong>，即不会影响访问国内网站速度，也省SS流量。</p>
+<h5 id="第一种手动输入服务器信息"><a href="#第一种手动输入服务器信息" class="headerlink" title="第一种手动输入服务器信息"></a>第一种手动输入服务器信息</h5><p><a href="http://kingss.win/" target="_blank" rel="external">http://kingss.win/</a> (提供稳定低价SS服务)<br><img src="https://ws1.sinaimg.cn/large/6f8a2832gw1f7wpvepnowj21hc1q8woh.jpg" alt=""></p>
+<h5 id="第二种扫描二维码直接填入信息"><a href="#第二种扫描二维码直接填入信息" class="headerlink" title="第二种扫描二维码直接填入信息"></a>第二种扫描二维码直接填入信息</h5><p><img src="https://ws4.sinaimg.cn/large/8b953c4agw1f9wncms9q7j20a00h4754.jpg" alt=""></p>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;IOS 上支持 shadowsocks 的科学上网软件比较流行的就是 &lt;a href=&quot;http://www.jianshu.com/p/064334890ae2&quot;&gt;surge&lt;/a&gt; 和&lt;a href=&quot;http://www.jianshu.com/p/83e57168b2f4&quot;&gt; shadowrocket&lt;/a&gt;，不过都是收费软件，现在出现了一款免费的科学上网软件 － &lt;a href=&quot;https://itunes.apple.com/cn/app/wingy-mian-fei-banvpn-ke-hu/id1148026741&quot;&gt;Wingy&lt;/a&gt; 。Wingy 同样支持&lt;strong&gt; shadowsocks&lt;/strong&gt;，开发者为 &lt;strong&gt;@HelloWingy&lt;/strong&gt; ，界面清爽无广告，选择自动模式就能顺畅 了。直接在&lt;strong&gt; APPSTORE&lt;/strong&gt; 搜索wingy, 免费下载安装，或直接&lt;a href=&quot;https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8&quot;&gt;点击此处&lt;/a&gt;跳转到应用商店，或者用手机扫描下面二维码。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shadowsocks（Sock5代理）的PAC模式与全局模式与VPN的区别</title>
+    <link href="https://blog.kingss.date/2017/04/07/ss-and-vpn/"/>
+    <id>https://blog.kingss.date/2017/04/07/ss-and-vpn/</id>
+    <published>2017-04-07T13:10:23.000Z</published>
+    <updated>2017-04-07T13:13:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="VPN，即虚拟专用网络"><a href="#VPN，即虚拟专用网络" class="headerlink" title="VPN，即虚拟专用网络"></a>VPN，即虚拟专用网络</h4><p>虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。</p>
+<h4 id="Shadowsocks，即Sock5代理"><a href="#Shadowsocks，即Sock5代理" class="headerlink" title="Shadowsocks，即Sock5代理"></a>Shadowsocks，即Sock5代理</h4><p>采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级的底层网关，是DavidKoblas在1990年开发的，此后就一直作为Internet RFC标准的开放标准。Socks 不要求应用程序遵循特定的操作系统平台，Socks 代理与应用层代理、 HTTP 层代理不同，Socks 代理只是简单地传递数据包，而不必关心是何种应用协议（比如FTP、HTTP和NNTP请求）。所以，Socks代理比其他应用层代理要快得多。</p>
+<p>VPN顾名思义，虚拟专网，你接入VPN就是接入了一个专有网络，那么你访问网络都是从这个专有网络的出口出去，好比你在家，你家路由器后面的网络设备是在同一个网络，而VPN则是让你的设备进入了另一个网络。同时你的IP地址也变成了由VPN分配的一个IP地址。通常是一个私网地址。你和VPN服务器之间的通信是否加密取决于连接VPN的具体方式/协议。</p>
+<p>Sock5代理服务器则是把你的网络数据请求通过一条连接你和代理服务器之间的通道，由服务器转发到目的地。你没有加入任何新的网络，只是http/socks数据经过代理服务器的转发送出，并从代理服务器接收回应。你与代理服务器通信过程不会被额外处理，如果你用https，那本身就是加密的。<br><a id="more"></a></p>
+<h4 id="Shadowsocks全局模式与VPN的区别"><a href="#Shadowsocks全局模式与VPN的区别" class="headerlink" title="Shadowsocks全局模式与VPN的区别"></a>Shadowsocks全局模式与VPN的区别</h4><p>VPN控制的是你电脑的整个网络，只要需要连接到互联网的流量都会经过vpn。</p>
+<p>你的IP会被更换为VPN的IP。连接VPN只需要知道IP和账号密码。</p>
+<p>Shadowsocks的全局模式，是设置你的系统代理的代理服务器，使你的所有http/socks数据经过代理服务器的转发送出。而只有支持socks5或者使用系统代理的软件才能使用Shadowsocks（一般的浏览器都是默认使用系统代理）。</p>
+<p>经过代理服务器的IP会被更换。连接Shadowsocks需要知道IP、端口、账号密码和加密方式。但是Shadowsocks因为可以自由换端口，所以定期换端口就可以有效避免IP被封！</p>
+<h4 id="Shadowsocks全局模式与PAC模式的区别"><a href="#Shadowsocks全局模式与PAC模式的区别" class="headerlink" title="Shadowsocks全局模式与PAC模式的区别"></a>Shadowsocks全局模式与PAC模式的区别</h4><p>上面已经解释了Shadowsocks的全局模式，而PAC模式就是会在你连接网站的时候读取PAC文件里的规则，来确定你访问的网站有没有被墙，如果符合，那就会使用代理服务器连接网站，而PAC列表一般都是从GFWList更新的。GFWList定期会更新被墙的网站（不过一般挺慢的）。</p>
+<p>简单地说，在全局模式下，所有网站默认走代理。而PAC模式是只有被墙的才会走代理，推荐PAC模式，如果PAC模式无法访问一些网站，就换全局模式试试，一般是因为PAC更新不及时（也可能是GFWList更新不及时）导致的。</p>
+<p>个人认为现在的Shadowsocks加密技术是很不错的，推荐使用Shadowsocks（IOS除外），想要做到类VPN的方式（控制整个网络）可以搭配Proxifier使用，</p>
+<p>上面仅代表个人的浅层观点，目前墙针对VPN的封锁越来越严重，比较有名的OpenVPN已经被第一个集火了！而PPTP也逐渐不稳定了起来，可能今天能用，明天就不能用了。L2TP和IPSe0c目前还好，加密方式还无法被效率破解。</p>
+<h4 id="购买地址：http-kingss-win"><a href="#购买地址：http-kingss-win" class="headerlink" title="购买地址：http://kingss.win"></a>购买地址：<a href="http://kingss.win" target="_blank" rel="external">http://kingss.win</a></h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;VPN，即虚拟专用网络&quot;&gt;&lt;a href=&quot;#VPN，即虚拟专用网络&quot; class=&quot;headerlink&quot; title=&quot;VPN，即虚拟专用网络&quot;&gt;&lt;/a&gt;VPN，即虚拟专用网络&lt;/h4&gt;&lt;p&gt;虚拟专用网络的功能是：在公用网络上建立专用网络，进行加密通讯。在企业网络中有广泛应用。VPN网关通过对数据包的加密和数据包目标地址的转换实现远程访问。VPN有多种分类方式，主要是按协议进行分类。VPN可通过服务器、硬件、软件等多种方式实现。&lt;/p&gt;
+&lt;h4 id=&quot;Shadowsocks，即Sock5代理&quot;&gt;&lt;a href=&quot;#Shadowsocks，即Sock5代理&quot; class=&quot;headerlink&quot; title=&quot;Shadowsocks，即Sock5代理&quot;&gt;&lt;/a&gt;Shadowsocks，即Sock5代理&lt;/h4&gt;&lt;p&gt;采用socks协议的代理服务器就是SOCKS服务器，是一种通用的代理服务器。Socks是个电路级的底层网关，是DavidKoblas在1990年开发的，此后就一直作为Internet RFC标准的开放标准。Socks 不要求应用程序遵循特定的操作系统平台，Socks 代理与应用层代理、 HTTP 层代理不同，Socks 代理只是简单地传递数据包，而不必关心是何种应用协议（比如FTP、HTTP和NNTP请求）。所以，Socks代理比其他应用层代理要快得多。&lt;/p&gt;
+&lt;p&gt;VPN顾名思义，虚拟专网，你接入VPN就是接入了一个专有网络，那么你访问网络都是从这个专有网络的出口出去，好比你在家，你家路由器后面的网络设备是在同一个网络，而VPN则是让你的设备进入了另一个网络。同时你的IP地址也变成了由VPN分配的一个IP地址。通常是一个私网地址。你和VPN服务器之间的通信是否加密取决于连接VPN的具体方式/协议。&lt;/p&gt;
+&lt;p&gt;Sock5代理服务器则是把你的网络数据请求通过一条连接你和代理服务器之间的通道，由服务器转发到目的地。你没有加入任何新的网络，只是http/socks数据经过代理服务器的转发送出，并从代理服务器接收回应。你与代理服务器通信过程不会被额外处理，如果你用https，那本身就是加密的。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="科普" scheme="https://blog.kingss.date/tags/%E7%A7%91%E6%99%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Telegram简单使用教程</title>
+    <link href="https://blog.kingss.date/2017/03/27/how-to-use-telegram/"/>
+    <id>https://blog.kingss.date/2017/03/27/how-to-use-telegram/</id>
+    <published>2017-03-27T03:28:56.000Z</published>
+    <updated>2017-03-27T05:02:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org"><a href="#Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org" class="headerlink" title="Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: https://telegram.org/"></a>Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: <a href="https://telegram.org/" target="_blank" rel="external">https://telegram.org/</a></h3><h4 id="客户端下载（v-1-0-14）："><a href="#客户端下载（v-1-0-14）：" class="headerlink" title="客户端下载（v 1.0.14）："></a>客户端下载（v 1.0.14）：</h4><p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tportable.1.0.14.zip" target="_blank" rel="external">Windows免安装版</a></p>
+<p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.exe" target="_blank" rel="external">Windows安装版</a></p>
+<p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.dmg" target="_blank" rel="external">OSX10.8+</a></p>
+<p>最新版到<a href="https://github.com/telegramdesktop/tdesktop/releases" target="_blank" rel="external">这里</a>下载。<br><a id="more"></a></p>
+<h2 id="配置教程："><a href="#配置教程：" class="headerlink" title="配置教程："></a>配置教程：</h2><h3 id="1-打开之后选择设置"><a href="#1-打开之后选择设置" class="headerlink" title="1.打开之后选择设置"></a>1.打开之后选择设置</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d8969fb0a1e.png" alt="1.png"></p>
+<hr>
+<h3 id="2-然后选择连接类型"><a href="#2-然后选择连接类型" class="headerlink" title="2.然后选择连接类型"></a>2.然后选择连接类型</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89703e8d68.png" alt="2.png"></p>
+<h3 id="3-配置代理（用SS的话就如下图配置）"><a href="#3-配置代理（用SS的话就如下图配置）" class="headerlink" title="3.配置代理（用SS的话就如下图配置）"></a>3.配置代理（用SS的话就如下图配置）</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897870b7ed.png" alt="3.png"></p>
+<h3 id="4-正常连接之后如下图显示"><a href="#4-正常连接之后如下图显示" class="headerlink" title="4.正常连接之后如下图显示"></a>4.正常连接之后如下图显示</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89785ecfda.png" alt="4.png"></p>
+<h3 id="5-然后返回登录界面输入手机号"><a href="#5-然后返回登录界面输入手机号" class="headerlink" title="5.然后返回登录界面输入手机号"></a>5.然后返回登录界面输入手机号</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897842e190.png" alt="5.png"></p>
+<h3 id="6-点击发送验证码然后输入之后登录进去了"><a href="#6-点击发送验证码然后输入之后登录进去了" class="headerlink" title="6.点击发送验证码然后输入之后登录进去了"></a>6.点击发送验证码然后输入之后登录进去了</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89786e9dd9.png" alt="6.png"></p>
+<h3 id="7-更换中文语言"><a href="#7-更换中文语言" class="headerlink" title="7.更换中文语言"></a>7.更换中文语言</h3><p>这是windows版本的，其他系统中文语言包到<a href="https://t.me/zh_CN" target="_blank" rel="external">https://t.me/zh_CN</a>这个telegram频道看教程</p>
+<p><a href="http://7xpt4s.com1.z0.glb.clouddn.com/lang-desktop.strings" target="_blank" rel="external">windows中文语言包下载</a></p>
+<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法:"></a>使用方法:</h4><h5 id="点-Settings-设置"><a href="#点-Settings-设置" class="headerlink" title="点 Settings (设置)"></a>点 Settings (设置)</h5><p><img src="https://ooo.0o0.ooo/2017/03/27/58d8979a22cbe.png" alt="7.png"></p>
+<h5 id="然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"><a href="#然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可" class="headerlink" title="然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"></a>然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可</h5><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897961882a.png" alt="8.png"><br><img src="https://ooo.0o0.ooo/2017/03/27/58d89a4133526.png" alt="9.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org&quot;&gt;&lt;a href=&quot;#Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org&quot; class=&quot;headerlink&quot; title=&quot;Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: https://telegram.org/&quot;&gt;&lt;/a&gt;Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: &lt;a href=&quot;https://telegram.org/&quot;&gt;https://telegram.org/&lt;/a&gt;&lt;/h3&gt;&lt;h4 id=&quot;客户端下载（v-1-0-14）：&quot;&gt;&lt;a href=&quot;#客户端下载（v-1-0-14）：&quot; class=&quot;headerlink&quot; title=&quot;客户端下载（v 1.0.14）：&quot;&gt;&lt;/a&gt;客户端下载（v 1.0.14）：&lt;/h4&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tportable.1.0.14.zip&quot;&gt;Windows免安装版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.exe&quot;&gt;Windows安装版&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.dmg&quot;&gt;OSX10.8+&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;最新版到&lt;a href=&quot;https://github.com/telegramdesktop/tdesktop/releases&quot;&gt;这里&lt;/a&gt;下载。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Shadowrocket入门使用教程</title>
+    <link href="https://blog.kingss.date/2017/03/23/Shadowrocket/"/>
+    <id>https://blog.kingss.date/2017/03/23/Shadowrocket/</id>
+    <published>2017-03-23T09:55:28.000Z</published>
+    <updated>2017-08-23T08:31:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Shadowrocket 是一款基于 iOS 9 新特性的 Shadowsocks 客户端。它可以做到全局代理，也可以根据网站来进行分流。或者你可以理解成它是 Surge 的部分功能，不过它可以满足你的绝大的需求，如果你只是需要一个 Shadowsocks 的客户端，而不是拿它进行调试网络的话。</p>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>你需要准备以下几样东西。<br><a href="https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8&amp;uo=4&amp;at=10lJSw" target="_blank" rel="external">下载 Shadowrocket </a>（¥18）<br>一个可用的 Shadowsocks 账户<br>一个可用的 Shadowsocks 账户需要包括以下信息</p>
+<ul>
+<li>服务器地址</li>
+<li>端口号</li>
+<li>加密方式</li>
+<li>密码</li>
+</ul>
+<p><a href="http://kingss.top/index.php/buy/index/3/#" target="_blank" rel="external">http://kingss.top/</a> (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)<br><a id="more"></a></p>
+<h5 id="shadowrocket-ios-免费安装方法："><a href="#shadowrocket-ios-免费安装方法：" class="headerlink" title="shadowrocket ios 免费安装方法："></a>shadowrocket ios 免费安装方法：</h5><p><a href="http://7xpt4s.com1.z0.glb.clouddn.com/Shadowrocket-2.0.10.ipa" target="_blank" rel="external">shadowrocket ipa正版文件下载</a><br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="selector-tag">win</span> 电脑安装 爱思助手。</div><div class="line">安装并运行爱思助手</div><div class="line">手机连接爱思助手</div><div class="line">打开爱思助手右上角的下载中心</div><div class="line"></div><div class="line">将 <span class="selector-tag">Shadowrocket-2</span><span class="selector-class">.0</span><span class="selector-class">.10</span><span class="selector-class">.ipa</span> 文件拖入下载中心</div><div class="line">安装 <span class="selector-tag">Shadowrocket</span> 到手机</div></pre></td></tr></table></figure></p>
+<h2 id="添加-Shadowsocks-账户"><a href="#添加-Shadowsocks-账户" class="headerlink" title="添加 Shadowsocks 账户"></a>添加 Shadowsocks 账户</h2><p>相比于 Surge， Shadowrocket 是一款专门为 Shadowsocks 设计的 APP，所以添加起来也是极其方便。点击左上角的方框即可扫描 Shadowsocks 账户的二维码，免去输入的麻烦。<br><img src="http://upload-images.jianshu.io/upload_images/456470-d848ee944f791b35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
+<p>或者你也可以点击右上角的加号进行手动输入<br><img src="http://upload-images.jianshu.io/upload_images/456470-d2048cdbf76497c3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3199.png"><br><img src="http://upload-images.jianshu.io/upload_images/456470-70be022f0ddb531f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3200.png"></p>
+<h2 id="规则的设置"><a href="#规则的设置" class="headerlink" title="规则的设置"></a>规则的设置</h2><p>如果要实现国内走直连，国外走代理的话，就需要用到规则。Shadowrocket 的规则是可以兼容 Surge 的。</p>
+<h2 id="设置方式"><a href="#设置方式" class="headerlink" title="设置方式"></a>设置方式</h2><p>点击 Settings，然后在点击 Config 你就可以看到以下界面<br><img src="http://upload-images.jianshu.io/upload_images/456470-7d905e11a2f5dc9f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3201.png"><br>点击 + 通过添加链接，在点击 Use Config 来下载规则文件。<br>各位可以直接下载下面的配置<br><code>http://7xpt4s.com1.z0.glb.clouddn.com/shadowrocket-rule.conf</code><br>直接扫码下载上面链接配置<br><img src="http://upload-images.jianshu.io/upload_images/1485430-15873fff0b043d78.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>或者用下面的支持广告过滤的规则<br><code>https://raw.githubusercontent.com/h2y/Shadowrocket-ADBlock-Rules/master/sr_top500_banlist_ad.conf</code><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fhxs9dxmpjj2052058mx2.jpg" alt=""></p>
+<h2 id="自己添加规则"><a href="#自己添加规则" class="headerlink" title="自己添加规则"></a>自己添加规则</h2><p>下载的网友提供的规则，你可以对其进行编辑，以满足自己的使用习惯。<br>点击感叹号<br><img src="http://upload-images.jianshu.io/upload_images/456470-965b4ae17b59df6b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3203.jpeg"></p>
+<p>然后在点击 Add Rule<br><img src="http://upload-images.jianshu.io/upload_images/456470-6ee7b7644ca4eb21.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3205.jpeg">点击 Type，就可以看到多种过滤方式</p>
+<h2 id="大致上说明下"><a href="#大致上说明下" class="headerlink" title="大致上说明下"></a>大致上说明下</h2><h4 id="DOMAIN-SUFFIX"><a href="#DOMAIN-SUFFIX" class="headerlink" title="DOMAIN-SUFFIX"></a>DOMAIN-SUFFIX</h4><p>基于域名后缀判断。<br>输入 baidu.com 就可以过滤zhidao.baidu.com，pan.baidu.comd等 baidu.com 后缀的网站。</p>
+<h4 id="DOMAIN-KEYWORD"><a href="#DOMAIN-KEYWORD" class="headerlink" title="DOMAIN-KEYWORD"></a>DOMAIN-KEYWORD</h4><p>基于关键词的判断。<br>输入baidu，就可以过滤 baidu.com，baidu.jp等含有 baidu 字眼的网站。</p>
+<h4 id="DOMAIN"><a href="#DOMAIN" class="headerlink" title="DOMAIN"></a>DOMAIN</h4><p>基于域名的判断。<br>输入 www.baidu.com 就可以过滤 <a href="http://www.baidu.com/" target="_blank" rel="external">www.baidu.com/</a><em>*</em>的网站。</p>
+<h4 id="IP-CIDR"><a href="#IP-CIDR" class="headerlink" title="IP-CIDR"></a>IP-CIDR</h4><p>判断是否为局域网。</p>
+<h4 id="GEOIP"><a href="#GEOIP" class="headerlink" title="GEOIP"></a>GEOIP</h4><p>判断服务器地址。<br>Surge 是可以选择的，但是之类好像只能自己填写，比如 JP，CN 之类的。</p>
+<h4 id="FINAL"><a href="#FINAL" class="headerlink" title="FINAL"></a>FINAL</h4><p>剩余的网站。</p>
+<h4 id="过滤网址之后"><a href="#过滤网址之后" class="headerlink" title="过滤网址之后"></a>过滤网址之后</h4><p>过滤网址之后，对其进行操作，你可以选择走代理 PROXY，或者直连 DIRECT，或者拒绝访问 REJECT。</p>
+<h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><p>Shadowrocket 可以进行简单的代理日志的查看。<br>点击 Settings，Proxy，Logging，就可以查看代理日志了。</p>
+<h2 id="查看日志可以干什么"><a href="#查看日志可以干什么" class="headerlink" title="查看日志可以干什么"></a>查看日志可以干什么</h2><p>Shadowrocket 的日志功能，并没有 Surge 那么强大，不过你可以通过简单的查看，来判断当前的连接是否都如你所愿的走了代理，或者直连了，并进行修改。</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>相比 Surge 的高价，Shadowrocket 的价格或许更适合一般用户，与其使用通过别人的 Apple ID 下载的 Surge，不如来试试 Shadowrocket。应该可以满足你的大部分需求～</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;写在前面&quot;&gt;&lt;a href=&quot;#写在前面&quot; class=&quot;headerlink&quot; title=&quot;写在前面&quot;&gt;&lt;/a&gt;写在前面&lt;/h2&gt;&lt;p&gt;Shadowrocket 是一款基于 iOS 9 新特性的 Shadowsocks 客户端。它可以做到全局代理，也可以根据网站来进行分流。或者你可以理解成它是 Surge 的部分功能，不过它可以满足你的绝大的需求，如果你只是需要一个 Shadowsocks 的客户端，而不是拿它进行调试网络的话。&lt;/p&gt;
+&lt;h2 id=&quot;准备工作&quot;&gt;&lt;a href=&quot;#准备工作&quot; class=&quot;headerlink&quot; title=&quot;准备工作&quot;&gt;&lt;/a&gt;准备工作&lt;/h2&gt;&lt;p&gt;你需要准备以下几样东西。&lt;br&gt;&lt;a href=&quot;https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8&amp;amp;uo=4&amp;amp;at=10lJSw&quot;&gt;下载 Shadowrocket &lt;/a&gt;（¥18）&lt;br&gt;一个可用的 Shadowsocks 账户&lt;br&gt;一个可用的 Shadowsocks 账户需要包括以下信息&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;服务器地址&lt;/li&gt;
+&lt;li&gt;端口号&lt;/li&gt;
+&lt;li&gt;加密方式&lt;/li&gt;
+&lt;li&gt;密码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;http://kingss.top/index.php/buy/index/3/#&quot;&gt;http://kingss.top/&lt;/a&gt; (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu 安装配置 Shadowsocks-qt5</title>
+    <link href="https://blog.kingss.date/2017/03/23/shadow-qt5/"/>
+    <id>https://blog.kingss.date/2017/03/23/shadow-qt5/</id>
+    <published>2017-03-23T08:53:54.000Z</published>
+    <updated>2017-09-16T05:58:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="Ubuntu-安装配置-Shadowsocks-qt5"><a href="#Ubuntu-安装配置-Shadowsocks-qt5" class="headerlink" title="Ubuntu 安装配置 Shadowsocks-qt5"></a>Ubuntu 安装配置 Shadowsocks-qt5</h4><p>我选择了 shadowsocks-qt5 来作为我的 Ubuntu 客户端，它是基于 Qt 开发地一个具有图形界面的 shadowsocks客户端，使用相对方便。<br>由于该软件包无法从我们一般使用的软件源中找到，所以第一步我们先添加该<a href="https://github.com/librehat/shadowsocks-qt5" target="_blank" rel="external">软件作者</a>的 PPA 源以及密钥。<br><figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo<span class="built_in"> add-apt-repository </span>ppa:hzwhuang/ss-qt5</div></pre></td></tr></table></figure></p>
+<a id="more"></a>
+<p>运行结果如下图：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-d30395ac158acf7b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="0.png"></p>
+<p>然后更新软件源：<br><figure class="highlight q"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="built_in">get</span> <span class="keyword">update</span></div></pre></td></tr></table></figure></p>
+<p>安装 shadowsocks-qt5：<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-<span class="keyword">get</span> install shadowsocks-qt5</div></pre></td></tr></table></figure></p>
+<p>安装完成后打开 shadowsocks-qt5，按下图填入对应信息：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-fcd502c0712a9d9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.png"></p>
+<p>然后连接</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-ad776eabc21d0ac0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="连接"></p>
+<h4 id="或者用命令行客户端配置"><a href="#或者用命令行客户端配置" class="headerlink" title="或者用命令行客户端配置"></a>或者用命令行客户端配置</h4><p>1.安装shadowsocks</p>
+<ul>
+<li>Debian/Ubuntu:</li>
+</ul>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-get <span class="keyword">install</span> python-pip</div><div class="line">sudo pip <span class="keyword">install</span> shadowsocks</div></pre></td></tr></table></figure>
+<ul>
+<li>Centos</li>
+</ul>
+<figure class="highlight cmake"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">yum <span class="keyword">install</span> python-setuptools &amp;&amp; easy_install pip</div><div class="line">pip <span class="keyword">install</span> shadowsocks</div></pre></td></tr></table></figure>
+<p>2.使用sslocal启动客户端<br>启动命令如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sslocal <span class="_">-s</span> 服务器地址 -p 服务器端口  -m 加密方式 -k 密码  <span class="_">-l</span> 本地端口 <span class="_">-d</span> start</div></pre></td></tr></table></figure>
+<p>△.快速配置</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"server"</span>: <span class="string">"your_server_ip"</span>,</div><div class="line">    <span class="attr">"server_port"</span>: your_server_port,</div><div class="line">    <span class="attr">"local_port"</span>: <span class="number">1080</span>,</div><div class="line">    <span class="attr">"password"</span>: <span class="string">"yourpassword"</span>,</div><div class="line">    <span class="attr">"timeout"</span>: <span class="number">600</span>,</div><div class="line">    <span class="attr">"method"</span>: <span class="string">"aes-256-cfb"</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>将上面参数修改为自己的设置保存为 <code>config.json</code>文件，就可以使用以下命令后台启动：</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sslocal -c <span class="built_in">config</span>.<span class="keyword">json </span>-d start</div></pre></td></tr></table></figure>
+<p>配置好ss本地客户端后，还需要配置下电脑端浏览器</p>
+<p>火狐浏览器：FoxyProxy<br>chrome浏览器：<a href="https://blog.kingss.date/2017/03/23/SwitchyOmega/" target="_blank" rel="external">SwitchyOmega</a></p>
+<p>在插件里配置代理<br><code>socks5 127.0.0.1:1080</code></p>
+<p>下面是火狐的例子：</p>
+<h4 id="Firefox-中-FoxyProxy-插件配置"><a href="#Firefox-中-FoxyProxy-插件配置" class="headerlink" title="Firefox 中 FoxyProxy 插件配置"></a>Firefox 中 FoxyProxy 插件配置</h4><p>安装 FoxyProxy 后，首先手动添加一条代理配置：服务器地址为本地（127.0.0.1），端口为 1080，类型为 socks5。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-a87cc3b4aef93b93.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-39a2f3637a168d8b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="3.png"></p>
+<p>然后进入【模式订阅】选项卡，按照下图所示添加一条模式订阅：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-b2d74963cf29ac1e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="4.png"></p>
+<p>【订阅名称】自定义。<br>【订阅网址】输入:</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/gfwlist/g</span>fwlist<span class="regexp">/master/g</span>fwlist.txt</div></pre></td></tr></table></figure>
+<p>【代理服务器】选择我们在第一步中手动添加的 socks5 代理。<br>【更新频率】自定义。<br>【Format】选择 AutoProxy。<br>【Obfuscation】选择 Base64。</p>
+<p>配置完选择工作模式（如果启用红框下面那个就是全局模式）</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-9f4bb7765cfddecf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="5.png"></p>
+<p>至此，在 Ubuntu 平台上完成了 shadowsocks 的配置。</p>
+<p>其他Linux平台看<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97" target="_blank" rel="external">官方文档</a>折腾。<br><a href="http://kingss.top/" target="_blank" rel="external">https://kingss.top/</a> (提供稳定低价SS服务20￥一年)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;Ubuntu-安装配置-Shadowsocks-qt5&quot;&gt;&lt;a href=&quot;#Ubuntu-安装配置-Shadowsocks-qt5&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu 安装配置 Shadowsocks-qt5&quot;&gt;&lt;/a&gt;Ubuntu 安装配置 Shadowsocks-qt5&lt;/h4&gt;&lt;p&gt;我选择了 shadowsocks-qt5 来作为我的 Ubuntu 客户端，它是基于 Qt 开发地一个具有图形界面的 shadowsocks客户端，使用相对方便。&lt;br&gt;由于该软件包无法从我们一般使用的软件源中找到，所以第一步我们先添加该&lt;a href=&quot;https://github.com/librehat/shadowsocks-qt5&quot;&gt;软件作者&lt;/a&gt;的 PPA 源以及密钥。&lt;br&gt;&lt;figure class=&quot;highlight smali&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo&lt;span class=&quot;built_in&quot;&gt; add-apt-repository &lt;/span&gt;ppa:hzwhuang/ss-qt5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shadowsocks配合SwitchyOmega科学上网</title>
+    <link href="https://blog.kingss.date/2017/03/23/SwitchyOmega/"/>
+    <id>https://blog.kingss.date/2017/03/23/SwitchyOmega/</id>
+    <published>2017-03-23T08:25:27.000Z</published>
+    <updated>2017-08-30T05:49:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1-shadowsocks客户端的基本使用"><a href="#1-shadowsocks客户端的基本使用" class="headerlink" title="1.shadowsocks客户端的基本使用"></a>1.shadowsocks客户端的基本使用</h3><h4 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤:"></a>主要步骤:</h4><p><strong>1</strong>.   <strong>下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。</strong><br><strong>    <a href="https://pan.baidu.com/s/1geBdTeF" target="_blank" rel="external">shadowsocks各平台客户端下载地址</a></strong><br><strong>2</strong>.   <strong>输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。</strong><br>    免费ss账号网站：<br>1.<a href="http://freessr.cf/" target="_blank" rel="external">http://freessr.cf/</a><br>2.<a href="https://kingss.win/" target="_blank" rel="external">https://kingss.win/</a>    (提供稳定低价SS服务20￥一年)</p>
+<p><strong>3</strong>.  <strong> <code>启用系统代理</code>，代理模式选择<code>pac模式</code>（这个模式就是<code>自动代理模式</code>，就是根据pac规则自动识别网站是否被墙而选择是否经过代理，这个模式的好处是访问国内网站不经过代理，不会影响速度）如果<code>pac模式</code>下有些被墙的网站还是不能访问，可以启用全局代理，即访问所有网址都会通过代理。</strong><br><a id="more"></a></p>
+<h5 id="以windows系统为例，其他系统类似："><a href="#以windows系统为例，其他系统类似：" class="headerlink" title="以windows系统为例，其他系统类似："></a>以windows系统为例，其他系统类似：</h5><p>1.双击打开后，如下图，设置代理服务器的信息</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-f4a502592407829c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1"></p>
+<p>2.启用代理</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-9355d7b5e201df3b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2"><br>完成以上步骤已经<strong>能科学上网</strong>了,嫌麻烦可以不用看下去了，下面是进阶教程。</p>
+<hr>
+<p>但是问题来了，如果我访问的某个国外网址被墙了，但是pac代理规则里没有，那么这时只能在ss客户端切换到全局模式，这样毕竟有点麻烦，用过红杏都知道它可以很方便决定某个网址是否经过代理，那么ss能不能做到呢，请看下面的部分。</p>
+<hr>
+<h3 id="2-shadowsocks配合SwitchyOmega科学上网"><a href="#2-shadowsocks配合SwitchyOmega科学上网" class="headerlink" title="2.shadowsocks配合SwitchyOmega科学上网"></a>2.shadowsocks配合SwitchyOmega科学上网</h3><p>SwitchyOmega是chrome下非常好用的代理管理插件。<br><a href="http://pan.baidu.com/s/1pJosoKr" target="_blank" rel="external">SwitchyOmega插件下载地址</a>,<code>.crx</code>是插件，<code>.bak</code>是备份文件<br>1.在chrome下安装SwitchyOmega插件。<br>PS:其实搜狗浏览器，UC浏览器，360极速浏览器也是可以使用这个插件的</p>
+<p><strong>步骤：</strong>打开chrome的设置&gt;扩展程序，然后把插件拖进来就行了。(新版本的在更多工具&gt;扩展程序)<br><img src="http://upload-images.jianshu.io/upload_images/456470-4904bd9963b1c140.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-f60c49c7687db970.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-9624c96b3cd77ac2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="3"><br>2.设置SwitchyOmega。<br>直接导入我设置好的配置文件。<br><img src="http://upload-images.jianshu.io/upload_images/456470-9f3b8ceea4b738f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2x.png"><br>3.使用SwitchyOmega<br>下图中的<code>auto switch</code>相当于ss客户端的PAC模式,<code>shadowsocks</code>相当于全局模式。<br>下图就是通过<code>auto switch</code>访问谷歌。<br><img src="http://upload-images.jianshu.io/upload_images/456470-9e4286ab9c902a41.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2x.png"></p>
+<h2 id="重点来了，就是如何把想要通过代理的网址加入到代理列表，有2种方法。"><a href="#重点来了，就是如何把想要通过代理的网址加入到代理列表，有2种方法。" class="headerlink" title="重点来了，就是如何把想要通过代理的网址加入到代理列表，有2种方法。"></a>重点来了，就是如何把想要通过代理的网址加入到代理列表，有2种方法。</h2><h5 id="方法1："><a href="#方法1：" class="headerlink" title="方法1："></a>方法1：</h5><p>下图1就是在<code>auto switch</code>模式下，点击那个插件的图标，点击那个网址，这里以<code>github.com</code>为例，然后点击<code>shadowsocks</code>就把当前网址加入到shadowsocks代理中，想不经过代理就选择<code>直接连接</code>。用<code>ip.cn</code>这个网址试的话，经过代理和不经过代理的显示地址不一样的，自行尝试。上述方式只是单次起作用，下次打开浏览器又做上述步骤，永久加入代理规则看方法2。<br><img src="http://upload-images.jianshu.io/upload_images/456470-dc728b08e9ab32a7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1"></p>
+<h5 id="方法2："><a href="#方法2：" class="headerlink" title="方法2："></a>方法2：</h5><p>在<code>auto switch</code>模式下，点击那个插件的图标，点击那个网址，这里以<code>ip.cn</code>为例，要永久加入代理规则可以点击<code>添加条件</code>，选择<code>shadowsocks</code>就行了，看图2，代理服务器在新加坡，所以就显示新加坡。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-07b1e80ef6cdb867.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图2"></p>
+<blockquote>
+<h3 id="2016-8-8更新："><a href="#2016-8-8更新：" class="headerlink" title="2016.8.8更新："></a>2016.8.8更新：</h3><p> 使用 Shadowsocks 的用户<strong>如果</strong>遇到 <code>Chrome + Windows 10</code> 环境下 SOCKS5 不稳定的问题， <strong>请在代理设置中把SOCK5换成 HTTP 代理协议。</strong> 如下图<br><img src="http://upload-images.jianshu.io/upload_images/456470-f902135accd6192e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">原因已经确定，是迅雷组件修改系统连接参数所致，卸载迅雷并重启也能修复。此问题与 SwitchyOmega 无关，其他代理设置软件或者手动设置代理也会导致 Chrome 发生此问题。<a href="https://github.com/FelisCatus/SwitchyOmega/issues/557" target="_blank" rel="external">参考来源</a></p>
+</blockquote>
+<p>Mac平台没问题用原来的sock5就行。</p>
+<hr>
+<h3 id="拓展1"><a href="#拓展1" class="headerlink" title="拓展1:"></a>拓展1:</h3><h5 id="手动配置SwitchyOmega方法："><a href="#手动配置SwitchyOmega方法：" class="headerlink" title="手动配置SwitchyOmega方法："></a>手动配置SwitchyOmega方法：</h5><p>这部分有兴趣可以看下，上面的bak文件就是根据这里的设置生成的。<br><img src="http://upload-images.jianshu.io/upload_images/456470-cebde14c7c439682.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-075384f39367e495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/456470-68101805db910f06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="3.png"></p>
+<p>规则列表网址:<br><code>https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</code></p>
+<hr>
+<h3 id="拓展2"><a href="#拓展2" class="headerlink" title="拓展2:"></a>拓展2:</h3><p><strong>1、Shadowsocks 是什么<br>
+</strong>Shadowsocks 是一种安全的 socks5 代理，可以保护你的上网流量。基于多种加密方式，推荐使用 aes-256-cfb 加密。安装和使用需要本地端和服务端。本地客户端已经包含了多种版本，包括iOS，Android，Windows，MAC，甚至是路由器 (基于OpenWRT)，所以使用方便，各取所需。远程服务端则一般安装在基于 Linux 的各种发行版操作系统，比如 Debian， CentOS， Fedora， Redhat， Ubuntu， openSUSE等。<br><strong>2、Shadowsocks 的作者是谁<br>
+</strong>最初只有 Python 版，由 <a href="https://github.com/clowwindy" target="_blank" rel="external">@clowwindy</a> 开发和维护，后来随着知名度提高，开始出现各种语言的版本，其中比较知名的是 libev ， go， nodejs 等版本，需要注意的是，nodejs 的作者也是 @clowwindy，但最近已不再维护该版本。libev 的维护者是<a href="https://github.com/madeye" target="_blank" rel="external">@madeye</a>，长期更新。<br><strong> 3、火狐上类似的插件是<code>AutoProxy</code><br>
+</strong>由于 <code>AutoProxy</code> 的作者没有更新，新的版本无法在 <code>Firefox 27.0</code>以后进行代理规则设置，所以我们用 xthunder 作者 的修复版，下载链接<a href="http://fxthunder.com/files/autoproxy.xpi" target="_blank" rel="external">http://fxthunder.com/files/autoproxy.xpi</a><br>如果您无法访问，也可以摸这个链接：<br><a href="http://pan.baidu.com/s/1F6k7G" target="_blank" rel="external">http://pan.baidu.com/s/1F6k7G</a><br>下载好这个 <code>.xpi</code>文件后，直接拖入任何 Firefox 窗口，然后安装重启浏览器即可，设置类似SwitchyOmega，就不多说了。</p>
+<h3 id="拓展3"><a href="#拓展3" class="headerlink" title="拓展3:"></a>拓展3:</h3><p>Shadowsocks原理<br>简单理解的话，Shadowsocks是将以前通过SSH创建的Socks5协议拆开成Server端和client端，下面这个原理图能简单介绍其翻墙原理，基本上和利用SSH tunnel大致类似：<br><img src="http://upload-images.jianshu.io/upload_images/456470-c360ea145203c532.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>PC客户端（即你的电脑）发出请求基于Socks5协议跟SS-Local端进行通讯，由于这个SS-Local一般是本机或路由器等局域网的其他机器，不经过GFW，所以解决GFW通过特征分析进行干扰的问题。<br>SS-Local和SS-Server两端通过多种可选的加密方法进行通讯，经过GFW的时候因为是常规的TCP包，没有明显特征码GFW也无法对通讯数据进行解密，因此通讯放行。<br>SS-Server将收到的加密数据进行解密，还原初始请求，再发送到用户需要访问的服务网站，获取响应原路再返回SS-04，返回途中依然使用了加密，使得流量是普通TCP包，并成功穿过GFW防火墙。<br>因此，Shadowsocks的优点在于它解决了GFW通过分析流量特征从而干扰的问题，这是它优于SSH和VPN翻墙的地方。</p>
+<p>1.其他平台的使用方法:</p>
+<ul>
+<li><p>1.所有平台客户端下载  <a href="https://pan.baidu.com/s/1geBdTeF" target="_blank" rel="external">https://pan.baidu.com/s/1geBdTeF</a></p>
+</li>
+<li><p>2.Windows、Mac使用教程 <a href="http://t.cn/R6t7HkG" target="_blank" rel="external">http://t.cn/R6t7HkG</a></p>
+</li>
+<li><p>3.IOS平台使用教程  <a href="http://t.cn/R6tzeeQ" target="_blank" rel="external">http://t.cn/R6tzeeQ</a></p>
+</li>
+<li><p>4.安卓平台使用教程 <a href="http://t.cn/RcyNGBm" target="_blank" rel="external">http://t.cn/RcyNGBm</a></p>
+</li>
+<li><p>5.Linux平台使用教程 <a href="http://t.cn/R6tZZgz" target="_blank" rel="external">http://t.cn/R6tZZgz</a></p>
+</li>
+</ul>
+<p>2.其他：<a href="http://t.cn/RUn8Hgy" target="_blank" rel="external">http://t.cn/RUn8Hgy</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1-shadowsocks客户端的基本使用&quot;&gt;&lt;a href=&quot;#1-shadowsocks客户端的基本使用&quot; class=&quot;headerlink&quot; title=&quot;1.shadowsocks客户端的基本使用&quot;&gt;&lt;/a&gt;1.shadowsocks客户端的基本使用&lt;/h3&gt;&lt;h4 id=&quot;主要步骤&quot;&gt;&lt;a href=&quot;#主要步骤&quot; class=&quot;headerlink&quot; title=&quot;主要步骤:&quot;&gt;&lt;/a&gt;主要步骤:&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.   &lt;strong&gt;下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;    &lt;a href=&quot;https://pan.baidu.com/s/1geBdTeF&quot;&gt;shadowsocks各平台客户端下载地址&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;2&lt;/strong&gt;.   &lt;strong&gt;输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。&lt;/strong&gt;&lt;br&gt;    免费ss账号网站：&lt;br&gt;1.&lt;a href=&quot;http://freessr.cf/&quot;&gt;http://freessr.cf/&lt;/a&gt;&lt;br&gt;2.&lt;a href=&quot;https://kingss.win/&quot;&gt;https://kingss.win/&lt;/a&gt;    (提供稳定低价SS服务20￥一年)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3&lt;/strong&gt;.  &lt;strong&gt; &lt;code&gt;启用系统代理&lt;/code&gt;，代理模式选择&lt;code&gt;pac模式&lt;/code&gt;（这个模式就是&lt;code&gt;自动代理模式&lt;/code&gt;，就是根据pac规则自动识别网站是否被墙而选择是否经过代理，这个模式的好处是访问国内网站不经过代理，不会影响速度）如果&lt;code&gt;pac模式&lt;/code&gt;下有些被墙的网站还是不能访问，可以启用全局代理，即访问所有网址都会通过代理。&lt;/strong&gt;&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
