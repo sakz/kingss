@@ -111,14 +111,14 @@
     <link href="https://blog.kingss.date/2017/07/20/wingy/"/>
     <id>https://blog.kingss.date/2017/07/20/wingy/</id>
     <published>2017-07-19T18:10:31.000Z</published>
-    <updated>2017-07-19T18:18:42.000Z</updated>
+    <updated>2017-09-29T12:33:14.000Z</updated>
     
     <content type="html"><![CDATA[<p>IOS 上支持 shadowsocks 的科学上网软件比较流行的就是 <a href="http://www.jianshu.com/p/064334890ae2" target="_blank" rel="external">surge</a> 和<a href="http://www.jianshu.com/p/83e57168b2f4" target="_blank" rel="external"> shadowrocket</a>，不过都是收费软件，现在出现了一款免费的科学上网软件 － <a href="https://itunes.apple.com/cn/app/wingy-mian-fei-banvpn-ke-hu/id1148026741" target="_blank" rel="external">Wingy</a> 。Wingy 同样支持<strong> shadowsocks</strong>，开发者为 <strong>@HelloWingy</strong> ，界面清爽无广告，选择自动模式就能顺畅 了。直接在<strong> APPSTORE</strong> 搜索wingy, 免费下载安装，或直接<a href="https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8" target="_blank" rel="external">点击此处</a>跳转到应用商店，或者用手机扫描下面二维码。</p>
 <a id="more"></a>
 <p><img src="http://upload-images.jianshu.io/upload_images/1485430-12a86bcb476d8614.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wingy"></p>
 <h5 id="特别提示：wingy-必须要是-IOS-9-3-以上的版本。"><a href="#特别提示：wingy-必须要是-IOS-9-3-以上的版本。" class="headerlink" title="特别提示：wingy 必须要是 IOS 9.3 以上的版本。"></a>特别提示：wingy 必须要是 IOS 9.3 以上的版本。</h5><p>wingy 的操作十分的简单，和 PC 上的操作没有任何区别。 并且默认也是自动模式，不影响国内网速！</p>
 <h5 id="自动和全局的区别"><a href="#自动和全局的区别" class="headerlink" title="自动和全局的区别"></a>自动和全局的区别</h5><p>自动模式，自动判断需不需要走科学上网线路。<br>全局模式，所有连接均走代理。<br>拿访问新浪举例，自动的从你手机到新浪服务器，全局的从你手机到国外再到新浪服务器。<br>一般是推荐使用<strong>自动模式</strong>，即不会影响访问国内网站速度，也省SS流量。</p>
-<h5 id="第一种手动输入服务器信息"><a href="#第一种手动输入服务器信息" class="headerlink" title="第一种手动输入服务器信息"></a>第一种手动输入服务器信息</h5><p><a href="http://kingss.win/" target="_blank" rel="external">http://kingss.win/</a> (提供稳定低价SS服务)<br><img src="https://ws1.sinaimg.cn/large/6f8a2832gw1f7wpvepnowj21hc1q8woh.jpg" alt=""></p>
+<h5 id="第一种手动输入服务器信息"><a href="#第一种手动输入服务器信息" class="headerlink" title="第一种手动输入服务器信息"></a>第一种手动输入服务器信息</h5><p><a href="https://kingssr.xyz/index.php/index/register/" target="_blank" rel="external">https://kingssr.xyz/</a> (提供稳定低价服务)<br><img src="https://ws1.sinaimg.cn/large/6f8a2832gw1f7wpvepnowj21hc1q8woh.jpg" alt=""></p>
 <h5 id="第二种扫描二维码直接填入信息"><a href="#第二种扫描二维码直接填入信息" class="headerlink" title="第二种扫描二维码直接填入信息"></a>第二种扫描二维码直接填入信息</h5><p><img src="https://ws4.sinaimg.cn/large/8b953c4agw1f9wncms9q7j20a00h4754.jpg" alt=""></p>
 <hr>
 ]]></content>
@@ -212,7 +212,7 @@
     <link href="https://blog.kingss.date/2017/03/23/Shadowrocket/"/>
     <id>https://blog.kingss.date/2017/03/23/Shadowrocket/</id>
     <published>2017-03-23T09:55:28.000Z</published>
-    <updated>2017-08-23T08:31:11.000Z</updated>
+    <updated>2017-09-29T12:32:03.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Shadowrocket 是一款基于 iOS 9 新特性的 Shadowsocks 客户端。它可以做到全局代理，也可以根据网站来进行分流。或者你可以理解成它是 Surge 的部分功能，不过它可以满足你的绝大的需求，如果你只是需要一个 Shadowsocks 的客户端，而不是拿它进行调试网络的话。</p>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>你需要准备以下几样东西。<br><a href="https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8&amp;uo=4&amp;at=10lJSw" target="_blank" rel="external">下载 Shadowrocket </a>（¥18）<br>一个可用的 Shadowsocks 账户<br>一个可用的 Shadowsocks 账户需要包括以下信息</p>
@@ -222,7 +222,7 @@
 <li>加密方式</li>
 <li>密码</li>
 </ul>
-<p><a href="http://kingss.top/index.php/buy/index/3/#" target="_blank" rel="external">http://kingss.top/</a> (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)<br><a id="more"></a></p>
+<p><a href="https://kingssr.xyz/index.php/buy/index/3/#" target="_blank" rel="external">点击注册</a> (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)<br><a id="more"></a></p>
 <h5 id="shadowrocket-ios-免费安装方法："><a href="#shadowrocket-ios-免费安装方法：" class="headerlink" title="shadowrocket ios 免费安装方法："></a>shadowrocket ios 免费安装方法：</h5><p><a href="http://7xpt4s.com1.z0.glb.clouddn.com/Shadowrocket-2.0.10.ipa" target="_blank" rel="external">shadowrocket ipa正版文件下载</a><br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="selector-tag">win</span> 电脑安装 爱思助手。</div><div class="line">安装并运行爱思助手</div><div class="line">手机连接爱思助手</div><div class="line">打开爱思助手右上角的下载中心</div><div class="line"></div><div class="line">将 <span class="selector-tag">Shadowrocket-2</span><span class="selector-class">.0</span><span class="selector-class">.10</span><span class="selector-class">.ipa</span> 文件拖入下载中心</div><div class="line">安装 <span class="selector-tag">Shadowrocket</span> 到手机</div></pre></td></tr></table></figure></p>
 <h2 id="添加-Shadowsocks-账户"><a href="#添加-Shadowsocks-账户" class="headerlink" title="添加 Shadowsocks 账户"></a>添加 Shadowsocks 账户</h2><p>相比于 Surge， Shadowrocket 是一款专门为 Shadowsocks 设计的 APP，所以添加起来也是极其方便。点击左上角的方框即可扫描 Shadowsocks 账户的二维码，免去输入的麻烦。<br><img src="http://upload-images.jianshu.io/upload_images/456470-d848ee944f791b35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
 <p>或者你也可以点击右上角的加号进行手动输入<br><img src="http://upload-images.jianshu.io/upload_images/456470-d2048cdbf76497c3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3199.png"><br><img src="http://upload-images.jianshu.io/upload_images/456470-70be022f0ddb531f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3200.png"></p>
@@ -253,7 +253,7 @@
 &lt;li&gt;加密方式&lt;/li&gt;
 &lt;li&gt;密码&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;http://kingss.top/index.php/buy/index/3/#&quot;&gt;http://kingss.top/&lt;/a&gt; (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://kingssr.xyz/index.php/buy/index/3/#&quot;&gt;点击注册&lt;/a&gt; (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)&lt;br&gt;
     
     </summary>
     
