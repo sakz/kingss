@@ -267,7 +267,7 @@
     <link href="https://blog.kingss.date/2017/03/23/shadow-qt5/"/>
     <id>https://blog.kingss.date/2017/03/23/shadow-qt5/</id>
     <published>2017-03-23T08:53:54.000Z</published>
-    <updated>2017-09-16T05:58:42.000Z</updated>
+    <updated>2017-09-30T05:35:13.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="Ubuntu-安装配置-Shadowsocks-qt5"><a href="#Ubuntu-安装配置-Shadowsocks-qt5" class="headerlink" title="Ubuntu 安装配置 Shadowsocks-qt5"></a>Ubuntu 安装配置 Shadowsocks-qt5</h4><p>我选择了 shadowsocks-qt5 来作为我的 Ubuntu 客户端，它是基于 Qt 开发地一个具有图形界面的 shadowsocks客户端，使用相对方便。<br>由于该软件包无法从我们一般使用的软件源中找到，所以第一步我们先添加该<a href="https://github.com/librehat/shadowsocks-qt5" target="_blank" rel="external">软件作者</a>的 PPA 源以及密钥。<br><figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo<span class="built_in"> add-apt-repository </span>ppa:hzwhuang/ss-qt5</div></pre></td></tr></table></figure></p>
 <a id="more"></a>
@@ -295,7 +295,7 @@
 <p>将上面参数修改为自己的设置保存为 <code>config.json</code>文件，就可以使用以下命令后台启动：</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sslocal -c <span class="built_in">config</span>.<span class="keyword">json </span>-d start</div></pre></td></tr></table></figure>
 <p>配置好ss本地客户端后，还需要配置下电脑端浏览器</p>
-<p>火狐浏览器：FoxyProxy<br>chrome浏览器：<a href="https://blog.kingss.date/2017/03/23/SwitchyOmega/" target="_blank" rel="external">SwitchyOmega</a></p>
+<p>火狐浏览器：FoxyProxy<br>chrome浏览器：<a href="https://blog.kingss.date/2017/03/23/SwitchyOmega/">SwitchyOmega</a></p>
 <p>在插件里配置代理<br><code>socks5 127.0.0.1:1080</code></p>
 <p>下面是火狐的例子：</p>
 <h4 id="Firefox-中-FoxyProxy-插件配置"><a href="#Firefox-中-FoxyProxy-插件配置" class="headerlink" title="Firefox 中 FoxyProxy 插件配置"></a>Firefox 中 FoxyProxy 插件配置</h4><p>安装 FoxyProxy 后，首先手动添加一条代理配置：服务器地址为本地（127.0.0.1），端口为 1080，类型为 socks5。</p>
@@ -309,7 +309,7 @@
 <p>配置完选择工作模式（如果启用红框下面那个就是全局模式）</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/456470-9f4bb7765cfddecf.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="5.png"></p>
 <p>至此，在 Ubuntu 平台上完成了 shadowsocks 的配置。</p>
-<p>其他Linux平台看<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97" target="_blank" rel="external">官方文档</a>折腾。<br><a href="http://kingss.top/" target="_blank" rel="external">https://kingss.top/</a> (提供稳定低价SS服务20￥一年)</p>
+<p>其他Linux平台看<a href="https://github.com/shadowsocks/shadowsocks-qt5/wiki/%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97" target="_blank" rel="external">官方文档</a>折腾。<br><a href="点击注册">https://kingssr.xyz/index.php/index/register/</a> (提供稳定低价$$服务)</p>
 ]]></content>
     
     <summary type="html">
