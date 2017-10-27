@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.kingss.date/2017/03/23/SwitchyOmega/</loc>
+    
+    <lastmod>2017-10-27T10:46:52.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://blog.kingss.date/2017/03/23/Shadowrocket/</loc>
+    
+    <lastmod>2017-10-27T10:44:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.kingss.date/2017/03/23/shadow-qt5/</loc>
     
     <lastmod>2017-09-30T05:42:11.000Z</lastmod>
@@ -9,23 +23,9 @@
   </url>
   
   <url>
-    <loc>https://blog.kingss.date/2017/03/23/SwitchyOmega/</loc>
-    
-    <lastmod>2017-09-30T05:15:27.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://blog.kingss.date/2017/07/20/wingy/</loc>
     
     <lastmod>2017-09-29T12:33:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://blog.kingss.date/2017/03/23/Shadowrocket/</loc>
-    
-    <lastmod>2017-09-29T12:32:03.000Z</lastmod>
     
   </url>
   

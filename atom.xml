@@ -212,7 +212,7 @@
     <link href="https://blog.kingss.date/2017/03/23/Shadowrocket/"/>
     <id>https://blog.kingss.date/2017/03/23/Shadowrocket/</id>
     <published>2017-03-23T09:55:28.000Z</published>
-    <updated>2017-09-29T12:32:03.000Z</updated>
+    <updated>2017-10-27T10:44:14.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>Shadowrocket 是一款基于 iOS 9 新特性的 Shadowsocks 客户端。它可以做到全局代理，也可以根据网站来进行分流。或者你可以理解成它是 Surge 的部分功能，不过它可以满足你的绝大的需求，如果你只是需要一个 Shadowsocks 的客户端，而不是拿它进行调试网络的话。</p>
 <h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>你需要准备以下几样东西。<br><a href="https://itunes.apple.com/cn/app/shadowrocket/id932747118?mt=8&amp;uo=4&amp;at=10lJSw" target="_blank" rel="external">下载 Shadowrocket </a>（¥18）<br>一个可用的 Shadowsocks 账户<br>一个可用的 Shadowsocks 账户需要包括以下信息</p>
@@ -222,7 +222,7 @@
 <li>加密方式</li>
 <li>密码</li>
 </ul>
-<p><a href="https://kingssr.xyz/index.php/buy/index/3/#" target="_blank" rel="external">点击注册</a> (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)<br><a id="more"></a></p>
+<p><a href="https://kingssr.xyz/index.php/buy/index/3/#" target="_blank" rel="external">点击注册</a> (提供稳定低价SS服务，免费提供共享Apple账号下载shadowrocket)<br><a id="more"></a></p>
 <h5 id="shadowrocket-ios-免费安装方法："><a href="#shadowrocket-ios-免费安装方法：" class="headerlink" title="shadowrocket ios 免费安装方法："></a>shadowrocket ios 免费安装方法：</h5><p><a href="http://7xpt4s.com1.z0.glb.clouddn.com/Shadowrocket-2.0.10.ipa" target="_blank" rel="external">shadowrocket ipa正版文件下载</a><br><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="selector-tag">win</span> 电脑安装 爱思助手。</div><div class="line">安装并运行爱思助手</div><div class="line">手机连接爱思助手</div><div class="line">打开爱思助手右上角的下载中心</div><div class="line"></div><div class="line">将 <span class="selector-tag">Shadowrocket-2</span><span class="selector-class">.0</span><span class="selector-class">.10</span><span class="selector-class">.ipa</span> 文件拖入下载中心</div><div class="line">安装 <span class="selector-tag">Shadowrocket</span> 到手机</div></pre></td></tr></table></figure></p>
 <h2 id="添加-Shadowsocks-账户"><a href="#添加-Shadowsocks-账户" class="headerlink" title="添加 Shadowsocks 账户"></a>添加 Shadowsocks 账户</h2><p>相比于 Surge， Shadowrocket 是一款专门为 Shadowsocks 设计的 APP，所以添加起来也是极其方便。点击左上角的方框即可扫描 Shadowsocks 账户的二维码，免去输入的麻烦。<br><img src="http://upload-images.jianshu.io/upload_images/456470-d848ee944f791b35.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"></p>
 <p>或者你也可以点击右上角的加号进行手动输入<br><img src="http://upload-images.jianshu.io/upload_images/456470-d2048cdbf76497c3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3199.png"><br><img src="http://upload-images.jianshu.io/upload_images/456470-70be022f0ddb531f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IMG_3200.png"></p>
@@ -253,7 +253,7 @@
 &lt;li&gt;加密方式&lt;/li&gt;
 &lt;li&gt;密码&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://kingssr.xyz/index.php/buy/index/3/#&quot;&gt;点击注册&lt;/a&gt; (提供稳定低价SS服务20￥一年，免费提供共享Apple账号下载shadowrocket，购买后加群获取)&lt;br&gt;
+&lt;p&gt;&lt;a href=&quot;https://kingssr.xyz/index.php/buy/index/3/#&quot;&gt;点击注册&lt;/a&gt; (提供稳定低价SS服务，免费提供共享Apple账号下载shadowrocket)&lt;br&gt;
     
     </summary>
     
@@ -328,9 +328,9 @@
     <link href="https://blog.kingss.date/2017/03/23/SwitchyOmega/"/>
     <id>https://blog.kingss.date/2017/03/23/SwitchyOmega/</id>
     <published>2017-03-23T08:25:27.000Z</published>
-    <updated>2017-09-30T05:15:27.000Z</updated>
+    <updated>2017-10-27T10:46:52.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="1-shadowsocks客户端的基本使用"><a href="#1-shadowsocks客户端的基本使用" class="headerlink" title="1.shadowsocks客户端的基本使用"></a>1.shadowsocks客户端的基本使用</h3><h4 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤:"></a>主要步骤:</h4><p><strong>1</strong>.   <strong>下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。</strong><br><strong>    <a href="https://yadi.sk/d/hG24IyGT3MxUrF" target="_blank" rel="external">shadowsocks各平台客户端下载地址</a></strong><br><strong>2</strong>.   <strong>输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。</strong><br>    免费ss账号网站：<br>1.<a href="http://freessr.cf/" target="_blank" rel="external">http://freessr.cf/</a><br>2.<a href="https://kingssr.xyz/" target="_blank" rel="external">https://kingssr.xyz/</a>    (提供稳定低价服务)</p>
+    <content type="html"><![CDATA[<h3 id="1-shadowsocks客户端的基本使用"><a href="#1-shadowsocks客户端的基本使用" class="headerlink" title="1.shadowsocks客户端的基本使用"></a>1.shadowsocks客户端的基本使用</h3><h4 id="主要步骤"><a href="#主要步骤" class="headerlink" title="主要步骤:"></a>主要步骤:</h4><p><strong>1</strong>.   <strong>下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。</strong><br><strong>    <a href="https://yadi.sk/d/hG24IyGT3MxUrF" target="_blank" rel="external">shadowsocks各平台客户端下载地址</a></strong><br><strong>2</strong>.   <strong>输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。</strong><br>    免费ss账号网站：<br>1.<a href="http://freessr.cf/" target="_blank" rel="external">http://freessr.cf/</a><br>2.<a href="https://kingssr.xyz/index.php/buy/index/3/#" target="_blank" rel="external">点击购买</a>    (提供稳定低价服务)</p>
 <p><strong>3</strong>.  <strong> <code>启用系统代理</code>，代理模式选择<code>pac模式</code>（这个模式就是<code>自动代理模式</code>，就是根据pac规则自动识别网站是否被墙而选择是否经过代理，这个模式的好处是访问国内网站不经过代理，不会影响速度）如果<code>pac模式</code>下有些被墙的网站还是不能访问，可以启用全局代理，即访问所有网址都会通过代理。</strong><br><a id="more"></a></p>
 <h5 id="以windows系统为例，其他系统类似："><a href="#以windows系统为例，其他系统类似：" class="headerlink" title="以windows系统为例，其他系统类似："></a>以windows系统为例，其他系统类似：</h5><p>1.双击打开后，如下图，设置代理服务器的信息</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/456470-f4a502592407829c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1"></p>
@@ -349,7 +349,7 @@
 <blockquote>
 <h3 id="2016-8-8更新："><a href="#2016-8-8更新：" class="headerlink" title="2016.8.8更新："></a>2016.8.8更新：</h3><p> 使用 Shadowsocks 的用户<strong>如果</strong>遇到 <code>Chrome + Windows 10</code> 环境下 SOCKS5 不稳定的问题， <strong>请在代理设置中把SOCK5换成 HTTP 代理协议。</strong> 如下图<br><img src="http://upload-images.jianshu.io/upload_images/456470-f902135accd6192e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="">原因已经确定，是迅雷组件修改系统连接参数所致，卸载迅雷并重启也能修复。此问题与 SwitchyOmega 无关，其他代理设置软件或者手动设置代理也会导致 Chrome 发生此问题。<a href="https://github.com/FelisCatus/SwitchyOmega/issues/557" target="_blank" rel="external">参考来源</a></p>
 </blockquote>
-<p>Mac平台没问题用原来的sock5就行。</p>
+<p>Mac平台没问题用原来的socks5就行。</p>
 <hr>
 <h3 id="拓展1"><a href="#拓展1" class="headerlink" title="拓展1:"></a>拓展1:</h3><h5 id="手动配置SwitchyOmega方法："><a href="#手动配置SwitchyOmega方法：" class="headerlink" title="手动配置SwitchyOmega方法："></a>手动配置SwitchyOmega方法：</h5><p>这部分有兴趣可以看下，上面的bak文件就是根据这里的设置生成的。<br><img src="http://upload-images.jianshu.io/upload_images/456470-cebde14c7c439682.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="1.png"></p>
 <p><img src="http://upload-images.jianshu.io/upload_images/456470-075384f39367e495.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="2.png"></p>
@@ -379,7 +379,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;1-shadowsocks客户端的基本使用&quot;&gt;&lt;a href=&quot;#1-shadowsocks客户端的基本使用&quot; class=&quot;headerlink&quot; title=&quot;1.shadowsocks客户端的基本使用&quot;&gt;&lt;/a&gt;1.shadowsocks客户端的基本使用&lt;/h3&gt;&lt;h4 id=&quot;主要步骤&quot;&gt;&lt;a href=&quot;#主要步骤&quot; class=&quot;headerlink&quot; title=&quot;主要步骤:&quot;&gt;&lt;/a&gt;主要步骤:&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.   &lt;strong&gt;下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;    &lt;a href=&quot;https://yadi.sk/d/hG24IyGT3MxUrF&quot;&gt;shadowsocks各平台客户端下载地址&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;2&lt;/strong&gt;.   &lt;strong&gt;输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。&lt;/strong&gt;&lt;br&gt;    免费ss账号网站：&lt;br&gt;1.&lt;a href=&quot;http://freessr.cf/&quot;&gt;http://freessr.cf/&lt;/a&gt;&lt;br&gt;2.&lt;a href=&quot;https://kingssr.xyz/&quot;&gt;https://kingssr.xyz/&lt;/a&gt;    (提供稳定低价服务)&lt;/p&gt;
+      &lt;h3 id=&quot;1-shadowsocks客户端的基本使用&quot;&gt;&lt;a href=&quot;#1-shadowsocks客户端的基本使用&quot; class=&quot;headerlink&quot; title=&quot;1.shadowsocks客户端的基本使用&quot;&gt;&lt;/a&gt;1.shadowsocks客户端的基本使用&lt;/h3&gt;&lt;h4 id=&quot;主要步骤&quot;&gt;&lt;a href=&quot;#主要步骤&quot; class=&quot;headerlink&quot; title=&quot;主要步骤:&quot;&gt;&lt;/a&gt;主要步骤:&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;1&lt;/strong&gt;.   &lt;strong&gt;下载客户端，各平台的客户端都有，windows,linux,mac,android,ios。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;    &lt;a href=&quot;https://yadi.sk/d/hG24IyGT3MxUrF&quot;&gt;shadowsocks各平台客户端下载地址&lt;/a&gt;&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;2&lt;/strong&gt;.   &lt;strong&gt;输入ss账号信息（也可以直接扫屏幕上的二维码账号）,选择服务器。&lt;/strong&gt;&lt;br&gt;    免费ss账号网站：&lt;br&gt;1.&lt;a href=&quot;http://freessr.cf/&quot;&gt;http://freessr.cf/&lt;/a&gt;&lt;br&gt;2.&lt;a href=&quot;https://kingssr.xyz/index.php/buy/index/3/#&quot;&gt;点击购买&lt;/a&gt;    (提供稳定低价服务)&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;3&lt;/strong&gt;.  &lt;strong&gt; &lt;code&gt;启用系统代理&lt;/code&gt;，代理模式选择&lt;code&gt;pac模式&lt;/code&gt;（这个模式就是&lt;code&gt;自动代理模式&lt;/code&gt;，就是根据pac规则自动识别网站是否被墙而选择是否经过代理，这个模式的好处是访问国内网站不经过代理，不会影响速度）如果&lt;code&gt;pac模式&lt;/code&gt;下有些被墙的网站还是不能访问，可以启用全局代理，即访问所有网址都会通过代理。&lt;/strong&gt;&lt;br&gt;
     
     </summary>
