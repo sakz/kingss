@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.kingss.date/"/>
-  <updated>2017-09-23T07:31:10.000Z</updated>
+  <updated>2017-12-17T09:43:26.000Z</updated>
   <id>https://blog.kingss.date/</id>
   
   <author>
@@ -14,6 +14,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>finalspeed客户端简易使用教程</title>
+    <link href="https://blog.kingss.date/2017/12/17/finalspeed-usage/"/>
+    <id>https://blog.kingss.date/2017/12/17/finalspeed-usage/</id>
+    <published>2017-12-17T09:40:13.000Z</published>
+    <updated>2017-12-17T09:43:26.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>###0.首先SS账号的服务器要安装了finalspeed，并开启了。<br><a id="more"></a><br>安装脚本</p>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">wget  http://<span class="number">7</span>xpt4s.com1.z0.glb.clouddn.<span class="keyword">com</span>/install_fs.<span class="keyword">sh</span></div><div class="line">chmod +<span class="keyword">x</span> install_fs.<span class="keyword">sh</span></div><div class="line">./install_fs.<span class="keyword">sh</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span> | tee install.<span class="built_in">log</span></div></pre></td></tr></table></figure>
+<hr>
+<p>##如果你只是在你电脑使用finalspeed可以忽略上面的步骤0，直接从这里开始看，并且一个字一个字地仔细看清楚。</p>
+<p>###1.windows平台</p>
+<p>1.FinalSpeed客户端Windows版</p>
+<p>下载地址:<a href="https://pan.baidu.com/s/1dF4pMtb" target="_blank" rel="external">finalspeed_install1.2.exe</a><br><a href="https://yadi.sk/d/pset_vez3PoWaS" target="_blank" rel="external">备用地址</a></p>
+<p>###2.Mac平台<br>FinalSpeed客户端Java版,支持OS X,Linux.</p>
+<p>下载地址:<a href="https://pan.baidu.com/s/1dF4pMtb" target="_blank" rel="external">finalspeed_client1.2.zip</a><br><a href="https://yadi.sk/d/pset_vez3PoWaS" target="_blank" rel="external">备用地址</a></p>
+<p>系统需安装<code>java</code>运行环境,Linux还需安装<code>libpcap</code>.</p>
+<p>Ubuntu,Debian安装<code>libpcap</code>: <code>apt-get -y install libpcap-dev</code></p>
+<p>Centos安装<code>libpcap</code>: <code>yum -y install libpcap</code></p>
+<p>安装:下载解压.</p>
+<p>运行方法:<br>方法1：直接双击<code>finalspeed_client.jar</code></p>
+<p>方法2：打开终端,假设<code>finalspeed_client.jar</code>所在路径为<code>/fsclient</code> ,先切换到该路径<code>cd /fsclient</code> ,然后执行 <code>sudo java -jar finalspeed_client.jar</code> ,前面加<code>sudo</code>,因为必须以<code>root</code>权限运行,如果没有<code>root</code>权限,会无法启用<code>tcp</code>协议</p>
+<p>###3.注意问题,必读!</p>
+<p>1.服务器必须同时部署FinalSpeed服务端才能进行加速.</p>
+<p>2.客户端必须准确设置物理带宽,最终加速的速度不会超过所设置的带宽值,如果设置值高于实际带宽会造成丢包,导致速度变慢.</p>
+<p>3.客户端使用<strong>UDP</strong>协议.</p>
+<p>###4.使用方法</p>
+<p>#####假设你的账号服务器IP为<code>us3.fazero.pw</code>，ss端口为<code>25000</code>。加速前提：ss服务端运行正常，ss客户端也能正常登录.</p>
+<p>#####finalspeed客户端配置和ss客户端配置如下图，配置好后，需要打开google.com，状态才会有显示。</p>
+<p>#####注意ss客户端的服务器IP必须为<code>127.0.0.1</code> finalspeed客户端的地址填你的ss服务器IP. 左边的本地端口填<code>2000</code>，对应右边的服务器端口也填<code>2000</code>。</p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fmjwlxapkyj20yg0bu16z.jpg" alt="仔细看图！！"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;###0.首先SS账号的服务器要安装了finalspeed，并开启了。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="教程" scheme="https://blog.kingss.date/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>SStap进行游戏代理</title>
