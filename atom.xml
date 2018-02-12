@@ -117,9 +117,9 @@
     <link href="https://blog.kingss.date/2017/08/17/sockscap64/"/>
     <id>https://blog.kingss.date/2017/08/17/sockscap64/</id>
     <published>2017-08-17T07:39:48.000Z</published>
-    <updated>2017-08-17T07:56:19.000Z</updated>
+    <updated>2018-02-12T04:07:51.000Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。"><a href="#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。" class="headerlink" title="SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。"></a>SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。</h4><p>客户端下载：<br>SocksCap64官网地址：<a href="http://www.sockscap64.com/" target="_blank" rel="external">http://www.sockscap64.com/</a><br>百度网盘下载：<a href="https://pan.baidu.com/s/1jIA9YRG" target="_blank" rel="external">https://pan.baidu.com/s/1jIA9YRG</a></p>
+    <content type="html"><![CDATA[<h4 id="SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。"><a href="#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。" class="headerlink" title="SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。"></a>SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。</h4><p>客户端下载：<br>SocksCap64官网地址：<a href="https://www.sockscap64.com/sockscap-64-free-download/" target="_blank" rel="external">https://www.sockscap64.com/sockscap-64-free-download/</a><br>百度网盘下载：<a href="https://pan.baidu.com/s/1jIA9YRG" target="_blank" rel="external">https://pan.baidu.com/s/1jIA9YRG</a><br>备用下载地址：<a href="https://yadi.sk/d/7AyX_ek_3SJUM6" target="_blank" rel="external">https://yadi.sk/d/7AyX_ek_3SJUM6</a></p>
 <hr>
 <a id="more"></a>
 <p>配置教程：<br>1.安装完成后打开软件(也需要启动Shadowsocks客户端)<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimroq9wjvj20q40dv0tj.jpg" alt=""><br>2.点击代理服务器<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrpfidqpj20ml0ht3zc.jpg" alt=""><br>3.点击右下角的“+”，添加如图所示的信息，然后点击保存(地址不是远程服务器地址，直接输入127.0.0.1)<br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fimrq26tk5j20px0dvdgw.jpg" alt=""><br>4.回到主界面，点击程序，添加一个可执行程序，命令行里选择你要代理的软件的EXE文件，然后点击确定。右击对应需要打开进行代理的软件，点击在代理隧道中运行选中的程序，然后就可以了，仅仅需要3步！</p>
@@ -134,7 +134,7 @@
     
     <summary type="html">
     
-      &lt;h4 id=&quot;SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot;&gt;&lt;a href=&quot;#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot; class=&quot;headerlink&quot; title=&quot;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&quot;&gt;&lt;/a&gt;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&lt;/h4&gt;&lt;p&gt;客户端下载：&lt;br&gt;SocksCap64官网地址：&lt;a href=&quot;http://www.sockscap64.com/&quot;&gt;http://www.sockscap64.com/&lt;/a&gt;&lt;br&gt;百度网盘下载：&lt;a href=&quot;https://pan.baidu.com/s/1jIA9YRG&quot;&gt;https://pan.baidu.com/s/1jIA9YRG&lt;/a&gt;&lt;/p&gt;
+      &lt;h4 id=&quot;SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot;&gt;&lt;a href=&quot;#SocksCap64是Windows系统下的SOCKS代理软件-可以使任何Windows应用程序通过SOCKS代理来连接网络-从而起到网络代理及网络加速的作用。&quot; class=&quot;headerlink&quot; title=&quot;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&quot;&gt;&lt;/a&gt;SocksCap64是Windows系统下的SOCKS代理软件. 可以使任何Windows应用程序通过SOCKS代理来连接网络, 从而起到网络代理及网络加速的作用。&lt;/h4&gt;&lt;p&gt;客户端下载：&lt;br&gt;SocksCap64官网地址：&lt;a href=&quot;https://www.sockscap64.com/sockscap-64-free-download/&quot;&gt;https://www.sockscap64.com/sockscap-64-free-download/&lt;/a&gt;&lt;br&gt;百度网盘下载：&lt;a href=&quot;https://pan.baidu.com/s/1jIA9YRG&quot;&gt;https://pan.baidu.com/s/1jIA9YRG&lt;/a&gt;&lt;br&gt;备用下载地址：&lt;a href=&quot;https://yadi.sk/d/7AyX_ek_3SJUM6&quot;&gt;https://yadi.sk/d/7AyX_ek_3SJUM6&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
     
     </summary>
