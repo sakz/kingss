@@ -58,7 +58,7 @@
     <link href="https://blog.kingss.date/2017/08/31/sstap/"/>
     <id>https://blog.kingss.date/2017/08/31/sstap/</id>
     <published>2017-08-31T13:22:42.000Z</published>
-    <updated>2018-02-24T01:57:36.000Z</updated>
+    <updated>2018-02-24T02:00:13.000Z</updated>
     
     <content type="html"><![CDATA[<h4 id="SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！"><a href="#SSTap全称SOCKSTap-是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理-而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP-UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！" class="headerlink" title="SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！"></a>SSTap全称SOCKSTap, 是一款利用虚拟网卡技术在网络层实现的代理工具。SSTap能在网络层拦截所有连接并转发给HTTP，SOCKS4，5，SHADOWSOCKS代理.而无需对被代理的应用程序做任何修改或设置。它能同时转发TCP, UDP数据包。它非常适合于游戏玩家使用。享受你的游戏时光！请使用SSTap！</h4><blockquote>
 <p>官网地址：<a href="https://www.sockscap64.com/sstap/" target="_blank" rel="external">https://www.sockscap64.com/sstap/</a></p>
@@ -71,9 +71,13 @@
 <p>2.填一下你的ss账号信息</p>
 <p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1forakr0czaj20ce0gv0ud.jpg" alt=""></p>
 <p>3.模式选择<strong>全局-内置规则</strong>，点连接，搞定，这时候打开你的游戏就行了</p>
-<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1fj384920n0j20dd0f7dhs.jpg" alt=""></p>
+<p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1forazm7agej20bv0f7gmf.jpg" alt=""></p>
+<hr>
 <p>下面说下其中几个模式的区别：</p>
-<p>全局-内置规则： 相当于开了一个全局的VPN软件，电脑所有软件的网络都经过代理，包括浏览器、QQ、国外网络游戏，这个模式适用于玩国外游戏，如果你只是用下Google，YouTube建议用<strong>不代理中国IP</strong>这个模式。<br>不代理中国IP：和上面的区别就在于，国内软件不经过代理，如QQ这些。（强烈推荐这个模式）<br>仅网页浏览器(全局)：相当于SS软件的全局模式，对浏览器所有访问的网址都进行代理。<br>仅网页浏览器(跳过中国站点)：差不多相当于SS软件的PAC模式，对服务器在国外的网址都进行代理，即Google这些，有些国外网址没被墙，也会经过代理，简单来说就是除了中国站点，都进行代理。</p>
+<p><strong>全局-内置规则</strong>： 相当于开了一个全局的VPN软件，电脑所有软件的网络都经过代理，包括浏览器、QQ、国外网络游戏，这个模式适用于玩国外游戏，如果你只是用下Google，YouTube建议用<strong>不代理中国IP</strong>这个模式。</p>
+<p><strong>不代理中国IP</strong>：和上面的区别就在于，国内软件不经过代理，如QQ这些。（强烈推荐这个模式）</p>
+<p><strong>仅网页浏览器(全局)</strong>：相当于SS软件的全局模式，对浏览器所有访问的网址都进行代理。</p>
+<p><strong>仅网页浏览器(跳过中国站点)</strong>：差不多相当于SS软件的PAC模式，对服务器在国外的网址都进行代理，即Google这些，有些国外网址没被墙，也会经过代理，简单来说就是除了中国站点，都进行代理。</p>
 ]]></content>
     
     <summary type="html">
