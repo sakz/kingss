@@ -157,7 +157,7 @@
     <link href="https://blog.kingss.date/2017/07/20/wingy/"/>
     <id>https://blog.kingss.date/2017/07/20/wingy/</id>
     <published>2017-07-19T18:10:31.000Z</published>
-    <updated>2017-11-22T11:16:28.000Z</updated>
+    <updated>2018-03-12T03:06:11.000Z</updated>
     
     <content type="html"><![CDATA[<p>IOS 上支持 shadowsocks 的科学上网软件比较流行的就是 <a href="http://www.jianshu.com/p/064334890ae2" target="_blank" rel="external">surge</a> 和<a href="http://www.jianshu.com/p/83e57168b2f4" target="_blank" rel="external"> shadowrocket</a>，不过都是收费软件，现在出现了一款免费的科学上网软件 － <a href="https://itunes.apple.com/cn/app/wingy-mian-fei-banvpn-ke-hu/id1148026741" target="_blank" rel="external">Wingy</a> 。Wingy 同样支持<strong> shadowsocks</strong>，开发者为 <strong>@HelloWingy</strong> ，界面清爽无广告，选择自动模式就能顺畅 了。直接在<strong> APPSTORE</strong> 搜索wingy, 免费下载安装，或直接<a href="https://itunes.apple.com/us/app/wingy-http-s-socks5-proxy-utility/id1178584911?mt=8" target="_blank" rel="external">点击此处</a>跳转到应用商店，或者用手机扫描下面二维码。</p>
 <a id="more"></a>
@@ -220,23 +220,23 @@
     <link href="https://blog.kingss.date/2017/03/27/how-to-use-telegram/"/>
     <id>https://blog.kingss.date/2017/03/27/how-to-use-telegram/</id>
     <published>2017-03-27T03:28:56.000Z</published>
-    <updated>2017-03-27T05:02:51.000Z</updated>
+    <updated>2018-07-24T11:31:51.000Z</updated>
     
     <content type="html"><![CDATA[<h3 id="Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org"><a href="#Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网-https-telegram-org" class="headerlink" title="Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: https://telegram.org/"></a>Telegram是一个号称不会被查水表的通信工具，私密通信，安全，不受到审查，但是在国内使用要配置下代理才能用。官网: <a href="https://telegram.org/" target="_blank" rel="external">https://telegram.org/</a></h3><h4 id="客户端下载（v-1-0-14）："><a href="#客户端下载（v-1-0-14）：" class="headerlink" title="客户端下载（v 1.0.14）："></a>客户端下载（v 1.0.14）：</h4><p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tportable.1.0.14.zip" target="_blank" rel="external">Windows免安装版</a></p>
 <p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.exe" target="_blank" rel="external">Windows安装版</a></p>
 <p><a href="https://github.com/telegramdesktop/tdesktop/releases/download/v1.0.14/tsetup.1.0.14.dmg" target="_blank" rel="external">OSX10.8+</a></p>
 <p>最新版到<a href="https://github.com/telegramdesktop/tdesktop/releases" target="_blank" rel="external">这里</a>下载。<br><a id="more"></a></p>
-<h2 id="配置教程："><a href="#配置教程：" class="headerlink" title="配置教程："></a>配置教程：</h2><h3 id="1-打开之后选择设置"><a href="#1-打开之后选择设置" class="headerlink" title="1.打开之后选择设置"></a>1.打开之后选择设置</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d8969fb0a1e.png" alt="1.png"></p>
+<h2 id="配置教程："><a href="#配置教程：" class="headerlink" title="配置教程："></a>配置教程：</h2><h3 id="1-打开之后选择设置"><a href="#1-打开之后选择设置" class="headerlink" title="1.打开之后选择设置"></a>1.打开之后选择设置</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6edjbyaj20lv0gegmd.jpg" alt="1.png"></p>
 <hr>
-<h3 id="2-然后选择连接类型"><a href="#2-然后选择连接类型" class="headerlink" title="2.然后选择连接类型"></a>2.然后选择连接类型</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89703e8d68.png" alt="2.png"></p>
-<h3 id="3-配置代理（用SS的话就如下图配置）"><a href="#3-配置代理（用SS的话就如下图配置）" class="headerlink" title="3.配置代理（用SS的话就如下图配置）"></a>3.配置代理（用SS的话就如下图配置）</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897870b7ed.png" alt="3.png"></p>
-<h3 id="4-正常连接之后如下图显示"><a href="#4-正常连接之后如下图显示" class="headerlink" title="4.正常连接之后如下图显示"></a>4.正常连接之后如下图显示</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89785ecfda.png" alt="4.png"></p>
-<h3 id="5-然后返回登录界面输入手机号"><a href="#5-然后返回登录界面输入手机号" class="headerlink" title="5.然后返回登录界面输入手机号"></a>5.然后返回登录界面输入手机号</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897842e190.png" alt="5.png"></p>
-<h3 id="6-点击发送验证码然后输入之后登录进去了"><a href="#6-点击发送验证码然后输入之后登录进去了" class="headerlink" title="6.点击发送验证码然后输入之后登录进去了"></a>6.点击发送验证码然后输入之后登录进去了</h3><p><img src="https://ooo.0o0.ooo/2017/03/27/58d89786e9dd9.png" alt="6.png"></p>
+<h3 id="2-然后选择连接类型"><a href="#2-然后选择连接类型" class="headerlink" title="2.然后选择连接类型"></a>2.然后选择连接类型</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6f77yqej20m70gljs8.jpg" alt="2.png"></p>
+<h3 id="3-配置代理（用SS的话就如下图配置）"><a href="#3-配置代理（用SS的话就如下图配置）" class="headerlink" title="3.配置代理（用SS的话就如下图配置）"></a>3.配置代理（用SS的话就如下图配置）</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6fkiitcj20mf0gvgmt.jpg" alt="3.png"></p>
+<h3 id="4-正常连接之后如下图显示"><a href="#4-正常连接之后如下图显示" class="headerlink" title="4.正常连接之后如下图显示"></a>4.正常连接之后如下图显示</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6g1c28vj20m80gtq3r.jpg" alt="4.png"></p>
+<h3 id="5-然后返回登录界面输入手机号"><a href="#5-然后返回登录界面输入手机号" class="headerlink" title="5.然后返回登录界面输入手机号"></a>5.然后返回登录界面输入手机号</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6gh2bkvj20m90gpq3j.jpg" alt="5.png"></p>
+<h3 id="6-点击发送验证码然后输入之后登录进去了"><a href="#6-点击发送验证码然后输入之后登录进去了" class="headerlink" title="6.点击发送验证码然后输入之后登录进去了"></a>6.点击发送验证码然后输入之后登录进去了</h3><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6gr89g8j20m70goabg.jpg" alt="6.png"></p>
 <h3 id="7-更换中文语言"><a href="#7-更换中文语言" class="headerlink" title="7.更换中文语言"></a>7.更换中文语言</h3><p>这是windows版本的，其他系统中文语言包到<a href="https://t.me/zh_CN" target="_blank" rel="external">https://t.me/zh_CN</a>这个telegram频道看教程</p>
 <p><a href="http://7xpt4s.com1.z0.glb.clouddn.com/lang-desktop.strings" target="_blank" rel="external">windows中文语言包下载</a></p>
-<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法:"></a>使用方法:</h4><h5 id="点-Settings-设置"><a href="#点-Settings-设置" class="headerlink" title="点 Settings (设置)"></a>点 Settings (设置)</h5><p><img src="https://ooo.0o0.ooo/2017/03/27/58d8979a22cbe.png" alt="7.png"></p>
-<h5 id="然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"><a href="#然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可" class="headerlink" title="然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"></a>然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可</h5><p><img src="https://ooo.0o0.ooo/2017/03/27/58d897961882a.png" alt="8.png"><br><img src="https://ooo.0o0.ooo/2017/03/27/58d89a4133526.png" alt="9.png"></p>
+<h4 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法:"></a>使用方法:</h4><h5 id="点-Settings-设置"><a href="#点-Settings-设置" class="headerlink" title="点 Settings (设置)"></a>点 Settings (设置)</h5><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6h3thi2j20m80goahy.jpg" alt="7.png"></p>
+<h5 id="然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"><a href="#然后键盘空打-loadlang-后，在弹出的文件选择框内选择上面那个语言包，然后重启即可" class="headerlink" title="然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可"></a>然后键盘空打 loadlang 后，在弹出的文件选择框内选择上面那个语言包，然后重启即可</h5><p><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6hdhb2pj20o20h4af3.jpg" alt="8.png"><br><img src="https://ws1.sinaimg.cn/large/8b953c4agy1ftl6hmynj1j20bo05y74i.jpg" alt="9.png"></p>
 ]]></content>
     
     <summary type="html">
@@ -313,7 +313,7 @@
     <link href="https://blog.kingss.date/2017/03/23/shadow-qt5/"/>
     <id>https://blog.kingss.date/2017/03/23/shadow-qt5/</id>
     <published>2017-03-23T08:53:54.000Z</published>
-    <updated>2018-02-24T02:17:24.000Z</updated>
+    <updated>2018-02-24T02:18:12.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>由于图床挂了，而且没有旧ubuntu环境测试，不方便补图，建议用命令行版本。也可以看下这里的教程。<a href="https://dcamero.azurewebsites.net/shadowsocksr.html" target="_blank" rel="external">https://dcamero.azurewebsites.net/shadowsocksr.html</a> </p>
