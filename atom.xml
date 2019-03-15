@@ -313,10 +313,10 @@
     <link href="https://blog.kingss.date/2017/03/23/shadow-qt5/"/>
     <id>https://blog.kingss.date/2017/03/23/shadow-qt5/</id>
     <published>2017-03-23T08:53:54.000Z</published>
-    <updated>2019-03-05T07:17:46.870Z</updated>
+    <updated>2019-03-15T10:37:08.740Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
-<p>由于图床挂了，而且没有旧ubuntu环境测试，不方便补图，建议用命令行版本，可以参考这个教程：<a href="https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。" target="_blank" rel="external">https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。</a><br>要用图形界面可以看下这个项目：<a href="https://github.com/erguotou520/electron-ssr" target="_blank" rel="external">https://github.com/erguotou520/electron-ssr</a></p>
+<p>由于图床挂了，而且没有旧ubuntu环境测试，不方便补图，建议用命令行版本，可以参考这个教程：<a href="https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。" target="_blank" rel="external">https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。</a><br>要用图形界面可以看下这个项目：<a href="https://github.com/erguotou520/electron-ssr" target="_blank" rel="external">https://github.com/erguotou520/electron-ssr</a><br>要用命令行$$R可以看这个项目：<a href="https://github.com/PeterCxy/shadowsocks-auto-redir.sh" target="_blank" rel="external">https://github.com/PeterCxy/shadowsocks-auto-redir.sh</a></p>
 </blockquote>
 <h4 id="Ubuntu-安装配置-Shadowsocks-qt5"><a href="#Ubuntu-安装配置-Shadowsocks-qt5" class="headerlink" title="Ubuntu 安装配置 Shadowsocks-qt5"></a>Ubuntu 安装配置 Shadowsocks-qt5</h4><p>我选择了 shadowsocks-qt5 来作为我的 Ubuntu 客户端，它是基于 Qt 开发地一个具有图形界面的 shadowsocks客户端，使用相对方便。<br>由于该软件包无法从我们一般使用的软件源中找到，所以第一步我们先添加该<a href="https://github.com/librehat/shadowsocks-qt5" target="_blank" rel="external">软件作者</a>的 PPA 源以及密钥。<br><figure class="highlight smali"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo<span class="built_in"> add-apt-repository </span>ppa:hzwhuang/ss-qt5</div></pre></td></tr></table></figure></p>
 <a id="more"></a>
@@ -364,7 +364,7 @@
     <summary type="html">
     
       &lt;blockquote&gt;
-&lt;p&gt;由于图床挂了，而且没有旧ubuntu环境测试，不方便补图，建议用命令行版本，可以参考这个教程：&lt;a href=&quot;https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。&quot;&gt;https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。&lt;/a&gt;&lt;br&gt;要用图形界面可以看下这个项目：&lt;a href=&quot;https://github.com/erguotou520/electron-ssr&quot;&gt;https://github.com/erguotou520/electron-ssr&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;由于图床挂了，而且没有旧ubuntu环境测试，不方便补图，建议用命令行版本，可以参考这个教程：&lt;a href=&quot;https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。&quot;&gt;https://blog.huihut.com/2017/08/25/LinuxInstallConfigShadowsocksClient/。&lt;/a&gt;&lt;br&gt;要用图形界面可以看下这个项目：&lt;a href=&quot;https://github.com/erguotou520/electron-ssr&quot;&gt;https://github.com/erguotou520/electron-ssr&lt;/a&gt;&lt;br&gt;要用命令行$$R可以看这个项目：&lt;a href=&quot;https://github.com/PeterCxy/shadowsocks-auto-redir.sh&quot;&gt;https://github.com/PeterCxy/shadowsocks-auto-redir.sh&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&quot;Ubuntu-安装配置-Shadowsocks-qt5&quot;&gt;&lt;a href=&quot;#Ubuntu-安装配置-Shadowsocks-qt5&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu 安装配置 Shadowsocks-qt5&quot;&gt;&lt;/a&gt;Ubuntu 安装配置 Shadowsocks-qt5&lt;/h4&gt;&lt;p&gt;我选择了 shadowsocks-qt5 来作为我的 Ubuntu 客户端，它是基于 Qt 开发地一个具有图形界面的 shadowsocks客户端，使用相对方便。&lt;br&gt;由于该软件包无法从我们一般使用的软件源中找到，所以第一步我们先添加该&lt;a href=&quot;https://github.com/librehat/shadowsocks-qt5&quot;&gt;软件作者&lt;/a&gt;的 PPA 源以及密钥。&lt;br&gt;&lt;figure class=&quot;highlight smali&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;sudo&lt;span class=&quot;built_in&quot;&gt; add-apt-repository &lt;/span&gt;ppa:hzwhuang/ss-qt5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
     
